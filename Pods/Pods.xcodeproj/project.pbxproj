@@ -1,0 +1,2344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0012C264B39E4338D90AEAA498F75B64 /* Card_Mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = B48C2301C55218A4FB369D27D8933C3C /* Card_Mastercard.png */; };
+		008570E0D715091ADFBE4178EE069FA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E710165B60CF588BBB212DF691707FE9 /* Foundation.framework */; };
+		00D9CAD37715DD6885D291181C4171A6 /* Ribbon_Expired@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9F925CAC8D6BDC9A78AC35B37E0754 /* Ribbon_Expired@2x.png */; };
+		02E27870A7A84B52E0F12E565BB2CF06 /* Ono-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E37BC0E62934F91461E423FED97967 /* Ono-dummy.m */; };
+		076395E8CCBA24F47294286FAAD4DC80 /* RETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4C03CB8795A08FEFB4820F4DFE76D /* RETableViewCell.m */; };
+		07818F5781210B4DD5E5D0E0E77CE532 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE99C2527115ABDD8FEAB076367F506 /* MASViewAttribute.m */; };
+		078D114C0B45CEB495D672259E3BEF7A /* RETableViewCreditCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ED2722FAC4C6B658EDA909153E3DCB /* RETableViewCreditCardCell.m */; };
+		0C35EA82ECB4A24D772C66EB076F7867 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA7AD4B4CDE98569E09512EFE0A843 /* FMDB-dummy.m */; };
+		0CA0D30DF423EAF798B0C33B781E7F18 /* Pods-WXHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9151ECEE5C878237E3773DF584BF4FF5 /* Pods-WXHook-dummy.m */; };
+		0F3A26A2DB9AA52FEEE86ECF37E0E2E7 /* Pods-WXHookDylib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3AC200ED85AA38AB5DA249682F8532 /* Pods-WXHookDylib-dummy.m */; };
+		13CF24549FA862851C8ADF5CFE22FEFD /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F212B03D3F010024781129354C789956 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14EE1645B67DE0A1D6CF83112B9C714D /* RETableViewLongTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB9D9942A962199155746C6BF9F141E /* RETableViewLongTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17223DB9268B201607BDFA94972C8DF7 /* ONOXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 0539644D43FF59B5F8144884C6B311D8 /* ONOXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		178CB7207373D101B7C5AF2042C32D8D /* RELongTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F9AE041765C6C049219710BE0A10F /* RELongTextItem.m */; };
+		1873C2709122C0DDC1FAF42292CF7125 /* RETableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 907D1780C67AA2FCB47399424B57F741 /* RETableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190A24D9F40904EEC4934C14F7724050 /* RENumberItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F59D8D520EDA7F55E453A3A05172E8D /* RENumberItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B4B42B8F2802D8D91B65B483F07FB2A /* REFloatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F405868EF40B81F7C4A172A5CA24AA41 /* REFloatItem.m */; };
+		1E4C2B7E07259DD5B60C4FE6A8A70C6F /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0EC33566140B539BD99C1D5BCAD72B /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FE3962B6786A1D26C1496AA4C1BFD37 /* Pods-WXHookDylib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F3FE37315779A136012590DA26ABD3 /* Pods-WXHookDylib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		263952CE18E0C4595EB6A29F2B50B64D /* RELengthValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A59D11EEDB987E6EFC4BE1065ACA427 /* RELengthValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A2190D2DD2818B74E3A6828C1AC800 /* Card_Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACBA4473DDFA84DD7D3DE023B279B38 /* Card_Back@2x.png */; };
+		27F1DAFCBA43BFC893AAB8D70B811B04 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 613EB969626C9CECD5565ACFB8660DEB /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2840105B932B287182124C46CE02DCA1 /* RETableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 37395489AE2A44B1EF8A240DE78B9F07 /* RETableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C3DBA3DC1FDDFD5A2D411836247686 /* REMultipleChoiceItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E38CDF0B74D578E026BA8D1C5119DCFD /* REMultipleChoiceItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC0F034FDD2774C3DDB9F33E45EFEFB /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8CE1478E68E1A0DEBD1123978F439D /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF3C3422D773C5DDB6A529D8EE1B105 /* REURLValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FABD1F1CA9ED6CA66CAEDFA8FCCD17 /* REURLValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C9792E579A277E866575A42EA0B576E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E710165B60CF588BBB212DF691707FE9 /* Foundation.framework */; };
+		2EB17628D1D32951A849856DC0367B89 /* RETableViewBoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86423E8B23939E5843C7268C83B06B /* RETableViewBoolCell.m */; };
+		2FBE88AB6732B2F224FCEA7F490757EB /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B18CD7D24D730530E59E20764E63D2 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30E061D49E49D70E7D816F855E957BD3 /* RETableViewNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 02807913D1398C240F31C5F6FCD3622E /* RETableViewNumberCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D311C3F533D944DFE0A5051CA69F17 /* REValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67C2AB9F989646085E9B954DB8C92C /* REValidation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		341913F61B0E0A5E12ED28248F605E6E /* NSBundle+RETableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC2B4E2283F27BD381A800A1A828077 /* NSBundle+RETableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343B75E1B98C0E4169A0CD82B05480F2 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24713CC0B28CEDDCFFE420C29C857CDC /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		345ED7D1DE224E3C44BEFB66AA77444F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8545060AF0A38FC5F69AD6AEB53C03 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		357FF480909B78B01A5BBA13263779DE /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F0123B1BDF665DF33DFF59F2ACF6307C /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37152F3DDE7405070C2DD69CF26C6829 /* REValidation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6B78B17B46E2028F2D3DFC33CC8C25 /* REValidation.framework */; };
+		3A9C93CB0F8782653A727B680C3F2E5C /* RETableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EED8260B0CF658E00AEA2465712BC1E1 /* RETableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BB26CF5ABE1CCA14CF54A9C0C49A8D5 /* RELongTextItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD7E5D8C065D4A330D8B714BF0286E /* RELongTextItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40220B2FA16001EDB1B1B26D52FA41D1 /* RETableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F48B17479158028BCFFACA0A1593C9D /* RETableViewItem.m */; };
+		41229681975ECE5BF873E5DE1B3C939F /* RETableViewSegmentedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 899826FF3BD720D4BDEEA509A7C4AFEA /* RETableViewSegmentedCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C66A85AC11B6B1C5183179E13B4327 /* REDateTimeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A81B5F8DD704143EE83CF4E25A4291BC /* REDateTimeItem.m */; };
+		43DFB781254ECEB6F325C5AED1B53678 /* RETextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3932D482F479162B089D37D58C83E /* RETextItem.m */; };
+		4470417758ABDA638A66F6108AF6AE79 /* RETableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ECA372BD30A6C3C0FF4578CF0BECFD /* RETableViewCellStyle.m */; };
+		48B94606AEEF3F718B7BFF155FDCD668 /* REInlineDatePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4C32C3DDD32D5C256C844598D6F6C6 /* REInlineDatePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4902FCDE4934B349AEDD8273F23B1838 /* RETableViewFloatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E7AA0D53EB62DA75D70FAD29BA96C /* RETableViewFloatCell.m */; };
+		4C2E30B56688FB9D46995A05F45B5BCF /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = E738A1EFB5BA0E9DE6BC618B60B18134 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5E062CBCC4C74C96A8E72305F3731E /* UIButtonBarArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AED03E3162C36ACCADE63F84A5FAA06B /* UIButtonBarArrowLeft@2x.png */; };
+		4D3E06AFB7EB2FD2D677E4B940A4160A /* NSError+REValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 297D8E120F8A24C92FFEAD84B17B35DF /* NSError+REValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EBF5C8C43701415BE6DB1D4BADD0602 /* RETextItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F261E3D0D8F26C42F4CC1D858689F3 /* RETextItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FDED973490EB6A8908D2671154FDB89 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 426FADFC58D06FECB5CB4E6DA017659C /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		504E834245FBF9D5F0F2310DA87AA069 /* REPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CBE37ADBAE9071B3DF0145CDF22B26 /* REPlaceholderTextView.m */; };
+		51526261B24222798CD8A2360129B81E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E710165B60CF588BBB212DF691707FE9 /* Foundation.framework */; };
+		524F3418085AF48572584ABBC73BECE8 /* RESegmentedItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0B4884F166F1CFAEAABB4203AEBFFC /* RESegmentedItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54F9A61FF424EEC5C3BC8D71C391DA42 /* RETableViewCellStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = BC14114E0C180F9D27E5EE3B77E81EF0 /* RETableViewCellStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DFE313C53DA21975AD94A81F166BD1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E3024ADFD080701582B8E15FC37A37BA /* MASConstraintMaker.m */; };
+		597305003CE41EA903D4BF82C271EE73 /* REPresenceValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE11F2CF5C05817CE89CAA73318471E /* REPresenceValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A3E4A8947F3AFAFDE088B6D7CB98182 /* RETableViewCreditCardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B285FD16071756AFB7BBD467AAE95218 /* RETableViewCreditCardCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A5708F2CA2F15175BA21D39433B459F /* REBoolItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 692A511A41DFC554F71155557BF413D6 /* REBoolItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BF0892BE511AFE52313EE4AD934392F /* REPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBDE26BF861B9DF82F90AC1FED75747 /* REPlaceholderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C734D670BA15D412F0FF90EEBBBF075 /* RETableViewInlineDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C2A4882A8CC5D403B952906B4B24FA /* RETableViewInlineDatePickerCell.m */; };
+		5E408B92D84154F734F6D02187F60B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E710165B60CF588BBB212DF691707FE9 /* Foundation.framework */; };
+		5FA135FDC68AF83AD2B94E373F076A6C /* NSError+REValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F48DF0BA143264290881E8B2E585CF /* NSError+REValidation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5FE8D081786A0DF2226095CDA2B884C4 /* REFormattedNumberField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55050E7BEB99F4FF2AC02B725163EF50 /* REFormattedNumberField-dummy.m */; };
+		5FFE220C83F22FA92EEBB4FA602146C9 /* RETableViewTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 887BD6D2B976F9AA1216DCED33A07141 /* RETableViewTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61584E70A53D1F5E4A418878560FE2DD /* REFloatItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 816293376C49A7451E1F74E6002657A0 /* REFloatItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62449CA0C38A2DC85B0982B25394E90E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF6DD212AF2FDFFDCDA228104AE7E8 /* MASConstraint.m */; };
+		626B143296611EBC98F20F738CFB4AA8 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07E1BF3741DB9F74B5A9F1C95E4BB1 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62BD880880398F3F9500B64FDCCE62B2 /* Ono-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C583D2A24C25F137D80DE1E7DC024D4E /* Ono-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BD741D172A7610052D023B5EC38988 /* REFormattedNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C32FA1D60B8D2AA0D21EEAACF33705 /* REFormattedNumberField.m */; };
+		63C22A97B892045474C99EBCF60FDFB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530F4DCB311B991AE5C77C871C3CA85F /* UIKit.framework */; };
+		6437B86FF1686EC9F2637419EE87C00C /* Card_Discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C38470D1B0A9936933AF3A6A33665C /* Card_Discover.png */; };
+		67843D6939DCFB92F851C88AD853EB8B /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E3F1483EE0281FFE8304F4C9BA51D9 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BA162F850CF5A59143AC3FE0D58CE32 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 562D85660758CA51BE09DA645E4841B7 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C86154CE847C298454B5C046D22B67E /* Ribbon_Expired.png in Resources */ = {isa = PBXBuildFile; fileRef = B22E744784237F5FFA807DD33799207F /* Ribbon_Expired.png */; };
+		6D5E94B9AD1914043DC0136E02654D05 /* Card_Discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BEF1398E32276DC31748E7AAA38704 /* Card_Discover@2x.png */; };
+		6D763C8524B57E4E596F04E2AF86D776 /* RETableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27105733F5598B3386FB77C67FB06CFB /* RETableViewManager-dummy.m */; };
+		6EA99DC2F76C3B925182E78E9A14F397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E710165B60CF588BBB212DF691707FE9 /* Foundation.framework */; };
+		6F999C6AC7DB5FC8531CD8F91FF89C67 /* REDateTimeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B779ABA12BE9071C07DBC85E9F1DEEA7 /* REDateTimeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDBC53A1095BFFEA2BAA85BDA5C484F /* REValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505ADDF44EBC80CFE95B6FE1DB0A7510 /* REValidation-dummy.m */; };
+		72A491CE6877C46B2409BF4EB374D0A3 /* RETableViewOptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AF3F9FECF6F71A0372A2AB6648A7E5 /* RETableViewOptionsController.m */; };
+		73300003438DC542B9D0546D73877707 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8202B216C2FED740FD0A5657CCDDCB56 /* MASViewConstraint.m */; };
+		735299C6CDC330D88E80662DFE848199 /* RETableViewOptionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6DBE039C426CC61FFD24B5547BCAA3 /* RETableViewOptionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7390990ADCBF9AB82DCEC400A01D6F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E710165B60CF588BBB212DF691707FE9 /* Foundation.framework */; };
+		75C5B6C21E0CC4898AE48E52DDA91375 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 689D8CAB18AE656BC91B84E204647D16 /* View+MASAdditions.m */; };
+		76AAA093F939DB7BBA5139122DB9D65A /* RELengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 48093783C6D1D5605DD1B1A407348CF1 /* RELengthValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76E85F6AFD00A3770E1318585CA65097 /* RETableViewLongTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E18E40341A3967BF37489D04F87095 /* RETableViewLongTextCell.m */; };
+		7B84B1C7B2F46917B654346D31C874AF /* RETableViewPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C5284F72156748DAE66FAAF0EF1CC7 /* RETableViewPickerCell.m */; };
+		7CD1638D0EE78B931414FC5D16E5CFDE /* RETableViewInlinePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B099E60966C0B51F9E81A85718D09 /* RETableViewInlinePickerCell.m */; };
+		7D502BC4015D98BB389EFAD2832777F6 /* Transparent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B43B2AD539EFF755749DDD4B9094924D /* Transparent@2x.png */; };
+		7E3A0ABF07C220C84E98070E58B4FAB4 /* RETableViewFloatCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BC06B5898EBC573DA3A90B05403DCBEC /* RETableViewFloatCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ED7B8054CED3517993B85A5D6FF7ED9 /* RERadioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4D8B21FF58033E7F81B568EBB9F928 /* RERadioItem.m */; };
+		7F26AFD1C302CB2FC64BCED869551D43 /* Ono.h in Headers */ = {isa = PBXBuildFile; fileRef = 00AE54D55D4C4A1A40B61E46D875F8B7 /* Ono.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		809BE2996DBB64DA003E0248F5BF43C9 /* Card_Visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 778509BAA9E0E33E6F04B47D8E0F3822 /* Card_Visa.png */; };
+		80E9FF0D8821539867ED77966398535E /* Card_Stack.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FB5987CC3243B191DEE848EADCACE1 /* Card_Stack.png */; };
+		843A80393130C719092B84C3D0482B8B /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F201AEF228EEF613AF6BD635F7898AF5 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		868D6B251A1D1A66327F6C1449F8AC2D /* RETableViewPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0DEE35CF93B0EC260A70E845068E94 /* RETableViewPickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD72162AED2D25238B8B1D15A315142 /* REEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F4635413F943BDA22791F705946E7F /* REEmailValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8FD2EED16023842E03C1F554570B7821 /* RESegmentedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C11C71AA17D1ED5D5F6606164B6B4A14 /* RESegmentedItem.m */; };
+		9121B92119667E44F8A31D304A2835D9 /* REValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E32480A084B9EF6B791863D59B84E /* REValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		912F0F2BDB973B46718F880FFFFCD896 /* RECreditCardItem.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBB4AA533D399295472076C9EEA87AF /* RECreditCardItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F1475D13FDCEE823500566F15B0532 /* Card_Amex.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E39532EEF6F50D29458F0F296D887F /* Card_Amex.png */; };
+		924AF75C348D5B953B6FE7564261F95B /* RETableViewTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5D8D25A7B6CF1FBF576CC911113812 /* RETableViewTextCell.m */; };
+		9269E802D3E20C338BDDFF5DA07029E5 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = F38DA6C5298A0F0F7B003C4D49A0B1BC /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943FB087E88357D63D157F83D7C2D116 /* Card_Mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E458079D9FD32AD4544D8E388B725E /* Card_Mastercard@2x.png */; };
+		94C1561BC701BB0EA90A7DD26B5D2D4F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA173C3469B8D6B5F4F5E534F9DDE6C /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94D8C1F13B984827F5AA8CB5FB70E9D2 /* REEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FED58EE40CD409340B893BF7797006A /* REEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C6B1720194F2E211E32425C3ECACCE /* Card_Visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B42E889EE5AC9301ACFB18B28648E /* Card_Visa@2x.png */; };
+		96CAD12A35AD06A932B83820579A2E2F /* RENumberItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA940888A0C10DB940B5C0D4797345B7 /* RENumberItem.m */; };
+		972C2DDDCB4556E73EA2BA8DBDA2347B /* REPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC122F93B652CEFFF35A9DF2D576D /* REPickerItem.m */; };
+		98733F787BBFD5556D90D82E46805C3D /* Card_Amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0D87E40BBB62ABD1289A4C8885B2F1 /* Card_Amex@2x.png */; };
+		999D4A510F424592EB26D6A41770D202 /* REValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBB1FBB50F1585F17DD64BF36C695FB /* REValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D16A571FC17358F9F9C2DDE34EB7488 /* REURLValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CD23B0915295B12E88E1A0DAA60E24 /* REURLValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E571E872949B6C830D2663949733F28 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E5EB806C5692A8EE6A62B71730ED8 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A059BACEA4B9C7791864C87ED449E9E5 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C45B680308C539DB7853430DA3CA3486 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A0FECD0ECA5073A3EDF4E203EEBDC65D /* NSString+RETableViewManagerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D56B50149A32980AF2AB55C9535BC4C5 /* NSString+RETableViewManagerAdditions.m */; };
+		A1D19560798DA7503EA261A81321A191 /* REValidation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B90DDB713843B7CF33428138646619 /* REValidation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E047CA28F0C24607D9306BC5ED26BF /* NSBundle+RETableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D5504439161FF372C1EBB768B5BB0 /* NSBundle+RETableViewManager.m */; };
+		A41ACB5DE4761457D4548EF0BEC86545 /* REFormattedNumberField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DD1EF69D8682410030C605CFFBB3B5 /* REFormattedNumberField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A838CB5473E75E5F511C3E2696F7E5E6 /* RETableViewDateTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C9367F0D48311D91BEC9658933CF98 /* RETableViewDateTimeCell.m */; };
+		A98413C6607F08050A4E1E4D4DBADD94 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 782516F24575DC8B2E69701B90B32D7C /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2152E19444F3499F643E212D051F8D0 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1D0FDD9EEF146F6551C43771D81CA9 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3AC51EEA72BD656B066DDD79EFE52DA /* RETableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E58C48467E3610FE07C8C43908E3B5 /* RETableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B586E157156998E5D3DE3A20E359D0A0 /* REFormattedNumberField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBD54FCB01683CFFE82C3CA982B4AF7 /* REFormattedNumberField.framework */; };
+		B72F3D969223479B3FFF5834EE0A9E21 /* RETableViewOptionsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 778F63F24E7A44F9439318DBAEF89001 /* RETableViewOptionsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8CA838A3624D20AA059AEC9B2BAFACE /* REActionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9E2B06322B00E5DA0412A15A65FCAF /* REActionBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E3F206AA9C63E9D2F94C7BCDB6F5AB /* REInlineDatePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 891A58CECB38D97DE831BD2A6F79018D /* REInlineDatePickerItem.m */; };
+		BC6B05CE9206ADDAAE174D64BB296CFC /* UIButtonBarArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B78B1F37F4B6E8A4033F1ABFA1B7FD /* UIButtonBarArrowRight@2x.png */; };
+		BC9D138592743C6138E5EEBDCF679053 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 448F123694E82C83248A4FB1E47231FD /* MASLayoutConstraint.m */; };
+		BDE276D861CC9F97242AFDFE7CC7FF3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E710165B60CF588BBB212DF691707FE9 /* Foundation.framework */; };
+		BE1BD98091ED661454C666127221850F /* REActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AE85566246E09D4046915BA8BADEE /* REActionBar.m */; };
+		BEE8EE636C68263C2800F3B3E1A93694 /* NSString+RENumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E68665E5DB163CC867788D8AC0D14C1 /* NSString+RENumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2B730059CAD0B0894EDF35547828C0 /* UIButtonBarArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = DC55FBF96EDA34400A4FC2951B452007 /* UIButtonBarArrowLeft.png */; };
+		BF700ED49D66CE07EA0F6CB4DCABCB0B /* REMultipleChoiceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C43FB8CFB70DEFCEFD2370F88D63203 /* REMultipleChoiceItem.m */; };
+		C149CCA7743532B48DE0D9FC3DFD6E99 /* UIButtonBarArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C752B68D4BBD8A53D00536DDF068C25 /* UIButtonBarArrowRight.png */; };
+		C1567AC51203A3DF5237C34E9BC092C2 /* RETableViewNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14756E9FF5F9136E16FF77FFF7DE3703 /* RETableViewNumberCell.m */; };
+		C236D15C6DFB7C2DDCA0376E4AFC2C7C /* NSString+RENumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3856999DC984A5E3DFFE797EA029BF91 /* NSString+RENumberFormat.m */; };
+		C3024F1A473C0B423A4D6045245778ED /* NSString+RETableViewManagerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ACC3A97AE25AEC03B4CC4B311ADA4AB /* NSString+RETableViewManagerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E4E82C2A980F0355219BA5A7F1AE64 /* RETableViewDateTimeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC0D5D73B855A1E86CBB475418323FA /* RETableViewDateTimeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5305C30EF88CDEFD1BFDE547F0B0932 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFB3DEFE36D27E672DD351ED4CDFCB2 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C58C96ECEB8DA48FD48BF98210048834 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A0C78CEEA0CC422328D07716779F07 /* ViewController+MASAdditions.m */; };
+		C8AC79F2C2F5C89141BCD6F407D20002 /* REInlinePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FACB39BF0DF7679C163F29DEE74481FE /* REInlinePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8B2C44773021FE52AE8D492B90F5787 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 214FF3D7D188F72C336A436B47EF30FA /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C953DFB30721E346924C7FF5E54C9F30 /* RERadioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB9ECEB636A869D1CE093771359CDE3 /* RERadioItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9EF3780585C67CC241CD51270C7A33B /* REPickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F662E9D88C7420B8EF7AA81640FA902B /* REPickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC5DF482B2C2AF028FAB3707AFCDD35D /* Card_Stack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A326AF80A71541FD5AB367CA37C9C643 /* Card_Stack@2x.png */; };
+		D0FE394E692A30796B0B8260680542A7 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB127962B574B69DD48A484A6634160 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3824CA11695D726304E0439D6655718 /* REPresenceValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 479148587C06BBD336EBE3CCB7D08A62 /* REPresenceValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F559BFFD56DA0CDF0CB382029298D6 /* RETableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E02559DA3F7CC976D87D692B05CCDA /* RETableViewManager.m */; };
+		D7E785572B8A914BB492965ABD1FA94B /* ONOXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C0E22B612F4C099ECC484C131A9312 /* ONOXMLDocument.m */; };
+		D892D5CB8E1711B1FE8FCA30D5D1713F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 89787DD90FB0605BD300EA8B6960329B /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D9AF7D9FF215A687177770AE1E224E05 /* RETableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B396F7CDA45383911F3F5B0489662A1 /* RETableViewSection.m */; };
+		DA3307805BB7EBA94345005A19EDC076 /* RECreditCardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9AEE8551B9F0E84A6166088F079B /* RECreditCardItem.m */; };
+		DADF5150B678D8FAB699D940DED2C71D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A1798B0193255F227A43BAB49BA844 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB547B068C20016570754924EAC45A57 /* REBoolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDD53381FF1DA8FC5A62A636B19D4D /* REBoolItem.m */; };
+		DDA0C9910C0F791259FCB4E0E85F3DBD /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0A7EF543C4587849CCF3F97899EFF /* Masonry-dummy.m */; };
+		DDC5DE76CA3AC9073FB5C6BFBA026AFE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E54A01184B644CC1A5E8AF3D6B4FA7 /* NSArray+MASAdditions.m */; };
+		E41ECAAC274E7D25DA39FD3829DBEC03 /* RETableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D9311F568CB0631019420F1A39E413 /* RETableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E483C7F294BC6899332AF9B84E0AF03F /* RETableViewBoolCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4765650FA04C29D85A63FB483D22AB15 /* RETableViewBoolCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7A30E51E8F1D20F2D97C515D1D87D27 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1CE2951AED52037D712BF6F02C1482 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E84ADBA78227AD8A12D7EC33E8B8E6AA /* RETableViewInlinePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 58418EB405FF389DE10F858091F3D51A /* RETableViewInlinePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBE4098D555B6DF8E362980173B9FFE4 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C704F489C7697E38DDB83492D45F43 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF40EC8A11B11CC8231A27C4BAFB4345 /* REFormattedNumberField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0927E4003976CF25AE9C10755E2ED0CF /* REFormattedNumberField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F20B46808E7B20CCDC347C8594647E07 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF20A32BBDA89212A5676E63801341E /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C345BC4ECE40D27E59219B79AED0E3 /* RETableViewOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C23478BD7004FD3FECBE54CD2D4613 /* RETableViewOptionCell.m */; };
+		F466B285D312DE88F60EDFEDCD4AAF7D /* RETableViewSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F973010AFCA1AE8655DD42E70624C6B /* RETableViewSegmentedCell.m */; };
+		F4BB175539BCC099E23D11BF326E6E06 /* Card_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 733814669D7AB218A8EC35F98FD1FC45 /* Card_Back.png */; };
+		F50920C2026473CF11E5C635750F12EE /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = B73E28F3CA4C86EC85A65A19C1F772C1 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F52733D4C98399362FE36F051F20C4BC /* REInlinePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E7AF5D1B224029742634D17011C587 /* REInlinePickerItem.m */; };
+		F5C9CAD634744DFE373DA45B0CD1806C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ADB6B33D9B6FD651DF1FC87FC9AF8B /* MASCompositeConstraint.m */; };
+		F73E33F1C435A7EDC49DB748C169901E /* RETableViewInlineDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FF604DF7CD092CFAD23E83B256EE29 /* RETableViewInlineDatePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F979FA568F0DFD095A5A9B4933FECD58 /* RETableViewManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C96FB4C9238C298E64D822B7781F511D /* RETableViewManager.bundle */; };
+		FCB2DD23CC2794A853B0B93462D63ACE /* REValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 898406A532F5796D4A4F75B48705D1AA /* REValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A32EDB41E30BDDEDFA559F95845AA48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3EA0094E2ABF0448ECA4C472AE12A01;
+			remoteInfo = REFormattedNumberField;
+		};
+		3295A49A0D6AEDE78E0544946D67827A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36B417BCC2BA9AB1A0FF21B9B4A953C;
+			remoteInfo = REValidation;
+		};
+		5849C382A693F0262F0B0BB758D1CF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C130CD3AA849E8ADCC55D0BC8E1020E;
+			remoteInfo = FMDB;
+		};
+		6A5A3E42DF275D703B19BDEF3F99FFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36B417BCC2BA9AB1A0FF21B9B4A953C;
+			remoteInfo = REValidation;
+		};
+		6EC1BDF3B5DC5571242BCCDBFB9FE5FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02DF396ED7F2F95CC3A011E5BBE8BAE;
+			remoteInfo = RETableViewManager;
+		};
+		8BD6A56B6211B050487FFE3803642F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3EA0094E2ABF0448ECA4C472AE12A01;
+			remoteInfo = REFormattedNumberField;
+		};
+		E684B0A03B7EE79C421362C68B0DC0AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EA04E3BC8D2B29EFFB688A7BCA8754;
+			remoteInfo = "RETableViewManager-RETableViewManager";
+		};
+		FD6C7FF54A678B512CEC46D1AC1F5D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D323238FCDE57AA62D81BAD858CFB11;
+			remoteInfo = Ono;
+		};
+		FF9298439B53DC87B94BE90923AA8D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64908377FC47CBE2E0EA0FA3CC30D3C1;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AE54D55D4C4A1A40B61E46D875F8B7 /* Ono.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ono.h; path = Source/Ono.h; sourceTree = "<group>"; };
+		02807913D1398C240F31C5F6FCD3622E /* RETableViewNumberCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewNumberCell.h; path = RETableViewManager/Cells/RETableViewNumberCell.h; sourceTree = "<group>"; };
+		02D6DB27A04E345A63713ACC5D572DAC /* libPods-WXHook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WXHook.a"; path = "libPods-WXHook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B78B1F37F4B6E8A4033F1ABFA1B7FD /* UIButtonBarArrowRight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIButtonBarArrowRight@2x.png"; path = "RETableViewManager/Resources/UIButtonBarArrowRight@2x.png"; sourceTree = "<group>"; };
+		04FB5987CC3243B191DEE848EADCACE1 /* Card_Stack.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Card_Stack.png; path = RETableViewManager/Resources/Card_Stack.png; sourceTree = "<group>"; };
+		0539644D43FF59B5F8144884C6B311D8 /* ONOXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ONOXMLDocument.h; path = Source/ONOXMLDocument.h; sourceTree = "<group>"; };
+		067E32480A084B9EF6B791863D59B84E /* REValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REValidator.m; path = REValidation/REValidator.m; sourceTree = "<group>"; };
+		06F4635413F943BDA22791F705946E7F /* REEmailValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REEmailValidator.m; path = REValidation/Validators/REEmailValidator.m; sourceTree = "<group>"; };
+		08E7AF5D1B224029742634D17011C587 /* REInlinePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REInlinePickerItem.m; path = RETableViewManager/Items/REInlinePickerItem.m; sourceTree = "<group>"; };
+		0927E4003976CF25AE9C10755E2ED0CF /* REFormattedNumberField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFormattedNumberField.h; path = REFormattedNumberField/REFormattedNumberField.h; sourceTree = "<group>"; };
+		09AF3F9FECF6F71A0372A2AB6648A7E5 /* RETableViewOptionsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewOptionsController.m; path = RETableViewManager/RETableViewOptionsController.m; sourceTree = "<group>"; };
+		0A0AE85566246E09D4046915BA8BADEE /* REActionBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REActionBar.m; path = RETableViewManager/REActionBar.m; sourceTree = "<group>"; };
+		0BB127962B574B69DD48A484A6634160 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0D2B34CE16E44AB64BCC7377BE885CDA /* Pods-WXHookDylib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXHookDylib-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E68665E5DB163CC867788D8AC0D14C1 /* NSString+RENumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RENumberFormat.h"; path = "REFormattedNumberField/NSString+RENumberFormat.h"; sourceTree = "<group>"; };
+		0F4C32C3DDD32D5C256C844598D6F6C6 /* REInlineDatePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REInlineDatePickerItem.h; path = RETableViewManager/Items/REInlineDatePickerItem.h; sourceTree = "<group>"; };
+		0FC0D5D73B855A1E86CBB475418323FA /* RETableViewDateTimeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewDateTimeCell.h; path = RETableViewManager/Cells/RETableViewDateTimeCell.h; sourceTree = "<group>"; };
+		1148F76D2C4E38A4A99FF5A9F94E1A3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C32FA1D60B8D2AA0D21EEAACF33705 /* REFormattedNumberField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFormattedNumberField.m; path = REFormattedNumberField/REFormattedNumberField.m; sourceTree = "<group>"; };
+		124FFFA408518DE5BFF725BB2253E6A4 /* REFormattedNumberField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = REFormattedNumberField.xcconfig; sourceTree = "<group>"; };
+		129F9AE041765C6C049219710BE0A10F /* RELongTextItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RELongTextItem.m; path = RETableViewManager/Items/RELongTextItem.m; sourceTree = "<group>"; };
+		14756E9FF5F9136E16FF77FFF7DE3703 /* RETableViewNumberCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewNumberCell.m; path = RETableViewManager/Cells/RETableViewNumberCell.m; sourceTree = "<group>"; };
+		14C8F35561E1486D42517D2C048AA852 /* Ono.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ono.modulemap; sourceTree = "<group>"; };
+		14C9367F0D48311D91BEC9658933CF98 /* RETableViewDateTimeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewDateTimeCell.m; path = RETableViewManager/Cells/RETableViewDateTimeCell.m; sourceTree = "<group>"; };
+		14E458079D9FD32AD4544D8E388B725E /* Card_Mastercard@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Card_Mastercard@2x.png"; path = "RETableViewManager/Resources/Card_Mastercard@2x.png"; sourceTree = "<group>"; };
+		16E18E40341A3967BF37489D04F87095 /* RETableViewLongTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewLongTextCell.m; path = RETableViewManager/Cells/RETableViewLongTextCell.m; sourceTree = "<group>"; };
+		1ACBA4473DDFA84DD7D3DE023B279B38 /* Card_Back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Card_Back@2x.png"; path = "RETableViewManager/Resources/Card_Back@2x.png"; sourceTree = "<group>"; };
+		1CB9D9942A962199155746C6BF9F141E /* RETableViewLongTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewLongTextCell.h; path = RETableViewManager/Cells/RETableViewLongTextCell.h; sourceTree = "<group>"; };
+		1EC2B4E2283F27BD381A800A1A828077 /* NSBundle+RETableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+RETableViewManager.h"; path = "RETableViewManager/NSBundle+RETableViewManager.h"; sourceTree = "<group>"; };
+		214FF3D7D188F72C336A436B47EF30FA /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		21E54A01184B644CC1A5E8AF3D6B4FA7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24713CC0B28CEDDCFFE420C29C857CDC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		24FF604DF7CD092CFAD23E83B256EE29 /* RETableViewInlineDatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewInlineDatePickerCell.h; path = RETableViewManager/Cells/RETableViewInlineDatePickerCell.h; sourceTree = "<group>"; };
+		27105733F5598B3386FB77C67FB06CFB /* RETableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RETableViewManager-dummy.m"; sourceTree = "<group>"; };
+		27C5284F72156748DAE66FAAF0EF1CC7 /* RETableViewPickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewPickerCell.m; path = RETableViewManager/Cells/RETableViewPickerCell.m; sourceTree = "<group>"; };
+		297D8E120F8A24C92FFEAD84B17B35DF /* NSError+REValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+REValidation.h"; path = "REValidation/NSError+REValidation.h"; sourceTree = "<group>"; };
+		2C43FB8CFB70DEFCEFD2370F88D63203 /* REMultipleChoiceItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REMultipleChoiceItem.m; path = RETableViewManager/Items/REMultipleChoiceItem.m; sourceTree = "<group>"; };
+		2C67C2AB9F989646085E9B954DB8C92C /* REValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REValidation.m; path = REValidation/REValidation.m; sourceTree = "<group>"; };
+		2E1C68D419E10EE75CFEFB51537132E7 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		2FED58EE40CD409340B893BF7797006A /* REEmailValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REEmailValidator.h; path = REValidation/Validators/REEmailValidator.h; sourceTree = "<group>"; };
+		2FF3932D482F479162B089D37D58C83E /* RETextItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETextItem.m; path = RETableViewManager/Items/RETextItem.m; sourceTree = "<group>"; };
+		36ADB6B33D9B6FD651DF1FC87FC9AF8B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		37395489AE2A44B1EF8A240DE78B9F07 /* RETableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewCell.h; path = RETableViewManager/RETableViewCell.h; sourceTree = "<group>"; };
+		3856999DC984A5E3DFFE797EA029BF91 /* NSString+RENumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RENumberFormat.m"; path = "REFormattedNumberField/NSString+RENumberFormat.m"; sourceTree = "<group>"; };
+		3AE99C2527115ABDD8FEAB076367F506 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		3C5D8D25A7B6CF1FBF576CC911113812 /* RETableViewTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewTextCell.m; path = RETableViewManager/Cells/RETableViewTextCell.m; sourceTree = "<group>"; };
+		3DE11F2CF5C05817CE89CAA73318471E /* REPresenceValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REPresenceValidator.m; path = REValidation/Validators/REPresenceValidator.m; sourceTree = "<group>"; };
+		3DFD7E5D8C065D4A330D8B714BF0286E /* RELongTextItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RELongTextItem.h; path = RETableViewManager/Items/RELongTextItem.h; sourceTree = "<group>"; };
+		3E67F634082CDA193BBA1EF67F325617 /* Ono.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ono.xcconfig; sourceTree = "<group>"; };
+		3E9F925CAC8D6BDC9A78AC35B37E0754 /* Ribbon_Expired@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ribbon_Expired@2x.png"; path = "RETableViewManager/Resources/Ribbon_Expired@2x.png"; sourceTree = "<group>"; };
+		3F195C891F7DF24F4B80C77F63096319 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDAFCE778545A270F356DBED935A9A2 /* Pods-WXHookDylib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXHookDylib.modulemap"; sourceTree = "<group>"; };
+		3FFA173610A703E7509C9936477A40ED /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		426FADFC58D06FECB5CB4E6DA017659C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		42F261E3D0D8F26C42F4CC1D858689F3 /* RETextItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETextItem.h; path = RETableViewManager/Items/RETextItem.h; sourceTree = "<group>"; };
+		441A6FEDF9CBF05BFD430249320425D7 /* Pods-WXHookDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXHookDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		445436990F8F8400C9EB841D679EEAA7 /* REFormattedNumberField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFormattedNumberField-prefix.pch"; sourceTree = "<group>"; };
+		448F123694E82C83248A4FB1E47231FD /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		44DD1EF69D8682410030C605CFFBB3B5 /* REFormattedNumberField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFormattedNumberField-umbrella.h"; sourceTree = "<group>"; };
+		475FA160813C970D93679002BC346A70 /* RETableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RETableViewManager.xcconfig; sourceTree = "<group>"; };
+		4765650FA04C29D85A63FB483D22AB15 /* RETableViewBoolCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewBoolCell.h; path = RETableViewManager/Cells/RETableViewBoolCell.h; sourceTree = "<group>"; };
+		479148587C06BBD336EBE3CCB7D08A62 /* REPresenceValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REPresenceValidator.h; path = REValidation/Validators/REPresenceValidator.h; sourceTree = "<group>"; };
+		48093783C6D1D5605DD1B1A407348CF1 /* RELengthValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RELengthValidator.m; path = REValidation/Validators/RELengthValidator.m; sourceTree = "<group>"; };
+		48D9311F568CB0631019420F1A39E413 /* RETableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewItem.h; path = RETableViewManager/RETableViewItem.h; sourceTree = "<group>"; };
+		4C0DEE35CF93B0EC260A70E845068E94 /* RETableViewPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewPickerCell.h; path = RETableViewManager/Cells/RETableViewPickerCell.h; sourceTree = "<group>"; };
+		4E1B42E889EE5AC9301ACFB18B28648E /* Card_Visa@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Card_Visa@2x.png"; path = "RETableViewManager/Resources/Card_Visa@2x.png"; sourceTree = "<group>"; };
+		4F48B17479158028BCFFACA0A1593C9D /* RETableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewItem.m; path = RETableViewManager/RETableViewItem.m; sourceTree = "<group>"; };
+		4F82B964378ED7D08425A25FA40B1BCF /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		4F973010AFCA1AE8655DD42E70624C6B /* RETableViewSegmentedCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewSegmentedCell.m; path = RETableViewManager/Cells/RETableViewSegmentedCell.m; sourceTree = "<group>"; };
+		505ADDF44EBC80CFE95B6FE1DB0A7510 /* REValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "REValidation-dummy.m"; sourceTree = "<group>"; };
+		52C38470D1B0A9936933AF3A6A33665C /* Card_Discover.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Card_Discover.png; path = RETableViewManager/Resources/Card_Discover.png; sourceTree = "<group>"; };
+		530F4DCB311B991AE5C77C871C3CA85F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		546E7AA0D53EB62DA75D70FAD29BA96C /* RETableViewFloatCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewFloatCell.m; path = RETableViewManager/Cells/RETableViewFloatCell.m; sourceTree = "<group>"; };
+		55050E7BEB99F4FF2AC02B725163EF50 /* REFormattedNumberField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "REFormattedNumberField-dummy.m"; sourceTree = "<group>"; };
+		562D85660758CA51BE09DA645E4841B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		565D7EF3BD64F3668621B3C48F2372DC /* Pods-WXHookDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXHookDylib.release.xcconfig"; sourceTree = "<group>"; };
+		58418EB405FF389DE10F858091F3D51A /* RETableViewInlinePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewInlinePickerCell.h; path = RETableViewManager/Cells/RETableViewInlinePickerCell.h; sourceTree = "<group>"; };
+		58FABD1F1CA9ED6CA66CAEDFA8FCCD17 /* REURLValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REURLValidator.m; path = REValidation/Validators/REURLValidator.m; sourceTree = "<group>"; };
+		592ED871AC65FF9B13F461E6C2FA604B /* REFormattedNumberField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = REFormattedNumberField.modulemap; sourceTree = "<group>"; };
+		5AC653202115A10CB1ADBFA4EFAED616 /* Pods-WXHook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXHook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5ACC3A97AE25AEC03B4CC4B311ADA4AB /* NSString+RETableViewManagerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RETableViewManagerAdditions.h"; path = "RETableViewManager/NSString+RETableViewManagerAdditions.h"; sourceTree = "<group>"; };
+		5CBDE26BF861B9DF82F90AC1FED75747 /* REPlaceholderTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REPlaceholderTextView.h; path = RETableViewManager/REPlaceholderTextView.h; sourceTree = "<group>"; };
+		5ECCE7330030F3D373167480CF4D34BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613EB969626C9CECD5565ACFB8660DEB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		644A34845A9A0EE6EEFA7EC1A4E63B01 /* REValidation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = REValidation.modulemap; sourceTree = "<group>"; };
+		66C2A4882A8CC5D403B952906B4B24FA /* RETableViewInlineDatePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewInlineDatePickerCell.m; path = RETableViewManager/Cells/RETableViewInlineDatePickerCell.m; sourceTree = "<group>"; };
+		689D8CAB18AE656BC91B84E204647D16 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		692A511A41DFC554F71155557BF413D6 /* REBoolItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REBoolItem.h; path = RETableViewManager/Items/REBoolItem.h; sourceTree = "<group>"; };
+		6A59D11EEDB987E6EFC4BE1065ACA427 /* RELengthValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RELengthValidator.h; path = REValidation/Validators/RELengthValidator.h; sourceTree = "<group>"; };
+		6B7539D3342E934EF90805410E3BFCE9 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		6DBD54FCB01683CFFE82C3CA982B4AF7 /* REFormattedNumberField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = REFormattedNumberField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86423E8B23939E5843C7268C83B06B /* RETableViewBoolCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewBoolCell.m; path = RETableViewManager/Cells/RETableViewBoolCell.m; sourceTree = "<group>"; };
+		6E9006E08F24157DCBDF4031FDF56DE1 /* Pods-WXHookDylib-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXHookDylib-frameworks.sh"; sourceTree = "<group>"; };
+		6E9E2B06322B00E5DA0412A15A65FCAF /* REActionBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REActionBar.h; path = RETableViewManager/REActionBar.h; sourceTree = "<group>"; };
+		733814669D7AB218A8EC35F98FD1FC45 /* Card_Back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Card_Back.png; path = RETableViewManager/Resources/Card_Back.png; sourceTree = "<group>"; };
+		778509BAA9E0E33E6F04B47D8E0F3822 /* Card_Visa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Card_Visa.png; path = RETableViewManager/Resources/Card_Visa.png; sourceTree = "<group>"; };
+		778F63F24E7A44F9439318DBAEF89001 /* RETableViewOptionsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewOptionsController.h; path = RETableViewManager/RETableViewOptionsController.h; sourceTree = "<group>"; };
+		782516F24575DC8B2E69701B90B32D7C /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		78F2FD784B177CC92053F2FBFECFC34B /* RETableViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RETableViewManager.framework; path = RETableViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1A3A342DB6BAC8ED267D28D6E59E2C /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		7E26371725BBFE201B8CB83AE114FE1D /* ResourceBundle-RETableViewManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RETableViewManager-Info.plist"; sourceTree = "<group>"; };
+		7ECA7AD4B4CDE98569E09512EFE0A843 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		816293376C49A7451E1F74E6002657A0 /* REFloatItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFloatItem.h; path = RETableViewManager/Items/REFloatItem.h; sourceTree = "<group>"; };
+		81A1798B0193255F227A43BAB49BA844 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8202B216C2FED740FD0A5657CCDDCB56 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		825E1B2A56C8F9FC367A6158668E4FE0 /* Pods-WXHookDylib-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXHookDylib-resources.sh"; sourceTree = "<group>"; };
+		83391DEF13DA31C20F5C87DB393C8C45 /* Ono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ono.framework; path = Ono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E02559DA3F7CC976D87D692B05CCDA /* RETableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewManager.m; path = RETableViewManager/RETableViewManager.m; sourceTree = "<group>"; };
+		86E4C9CDB8D549763BBE04C79DA263D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86ECA372BD30A6C3C0FF4578CF0BECFD /* RETableViewCellStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewCellStyle.m; path = RETableViewManager/RETableViewCellStyle.m; sourceTree = "<group>"; };
+		887BD6D2B976F9AA1216DCED33A07141 /* RETableViewTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewTextCell.h; path = RETableViewManager/Cells/RETableViewTextCell.h; sourceTree = "<group>"; };
+		891A58CECB38D97DE831BD2A6F79018D /* REInlineDatePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REInlineDatePickerItem.m; path = RETableViewManager/Items/REInlineDatePickerItem.m; sourceTree = "<group>"; };
+		89787DD90FB0605BD300EA8B6960329B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		898406A532F5796D4A4F75B48705D1AA /* REValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REValidation.h; path = REValidation/REValidation.h; sourceTree = "<group>"; };
+		899826FF3BD720D4BDEEA509A7C4AFEA /* RETableViewSegmentedCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewSegmentedCell.h; path = RETableViewManager/Cells/RETableViewSegmentedCell.h; sourceTree = "<group>"; };
+		89C704F489C7697E38DDB83492D45F43 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		89ED2722FAC4C6B658EDA909153E3DCB /* RETableViewCreditCardCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewCreditCardCell.m; path = RETableViewManager/Cells/RETableViewCreditCardCell.m; sourceTree = "<group>"; };
+		8BAF6DD212AF2FDFFDCDA228104AE7E8 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		8C6DBE039C426CC61FFD24B5547BCAA3 /* RETableViewOptionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewOptionCell.h; path = RETableViewManager/Cells/RETableViewOptionCell.h; sourceTree = "<group>"; };
+		8C752B68D4BBD8A53D00536DDF068C25 /* UIButtonBarArrowRight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UIButtonBarArrowRight.png; path = RETableViewManager/Resources/UIButtonBarArrowRight.png; sourceTree = "<group>"; };
+		8CBDD53381FF1DA8FC5A62A636B19D4D /* REBoolItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REBoolItem.m; path = RETableViewManager/Items/REBoolItem.m; sourceTree = "<group>"; };
+		8E3AC200ED85AA38AB5DA249682F8532 /* Pods-WXHookDylib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXHookDylib-dummy.m"; sourceTree = "<group>"; };
+		8F59D8D520EDA7F55E453A3A05172E8D /* RENumberItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RENumberItem.h; path = RETableViewManager/Items/RENumberItem.h; sourceTree = "<group>"; };
+		8F8545060AF0A38FC5F69AD6AEB53C03 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		907D1780C67AA2FCB47399424B57F741 /* RETableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RETableViewManager-umbrella.h"; sourceTree = "<group>"; };
+		90E8A47F244DE0064F3C2492204C279D /* REValidation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = REValidation.xcconfig; sourceTree = "<group>"; };
+		9151ECEE5C878237E3773DF584BF4FF5 /* Pods-WXHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXHook-dummy.m"; sourceTree = "<group>"; };
+		9402C21D3780C7D1C980A954A1B7F153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1CE2951AED52037D712BF6F02C1482 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		9B396F7CDA45383911F3F5B0489662A1 /* RETableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewSection.m; path = RETableViewManager/RETableViewSection.m; sourceTree = "<group>"; };
+		9D0EC33566140B539BD99C1D5BCAD72B /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9D6B78B17B46E2028F2D3DFC33CC8C25 /* REValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = REValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFB3DEFE36D27E672DD351ED4CDFCB2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		9F76494EC0BD184F795F02B982D5355D /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A141B0C75529CEEAE25143CAE073EA6C /* REValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = REValidation.framework; path = REValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E3F1483EE0281FFE8304F4C9BA51D9 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		A30E5EB806C5692A8EE6A62B71730ED8 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		A326AF80A71541FD5AB367CA37C9C643 /* Card_Stack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Card_Stack@2x.png"; path = "RETableViewManager/Resources/Card_Stack@2x.png"; sourceTree = "<group>"; };
+		A55B099E60966C0B51F9E81A85718D09 /* RETableViewInlinePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewInlinePickerCell.m; path = RETableViewManager/Cells/RETableViewInlinePickerCell.m; sourceTree = "<group>"; };
+		A5E4C03CB8795A08FEFB4820F4DFE76D /* RETableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewCell.m; path = RETableViewManager/RETableViewCell.m; sourceTree = "<group>"; };
+		A7C0E22B612F4C099ECC484C131A9312 /* ONOXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ONOXMLDocument.m; path = Source/ONOXMLDocument.m; sourceTree = "<group>"; };
+		A81B5F8DD704143EE83CF4E25A4291BC /* REDateTimeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REDateTimeItem.m; path = RETableViewManager/Items/REDateTimeItem.m; sourceTree = "<group>"; };
+		A85E857C5D9181EAAC5792CDE8A50177 /* Pods-WXHook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXHook-resources.sh"; sourceTree = "<group>"; };
+		A8C23478BD7004FD3FECBE54CD2D4613 /* RETableViewOptionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewOptionCell.m; path = RETableViewManager/Cells/RETableViewOptionCell.m; sourceTree = "<group>"; };
+		A8E37BC0E62934F91461E423FED97967 /* Ono-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ono-dummy.m"; sourceTree = "<group>"; };
+		AA940888A0C10DB940B5C0D4797345B7 /* RENumberItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RENumberItem.m; path = RETableViewManager/Items/RENumberItem.m; sourceTree = "<group>"; };
+		AB07E1BF3741DB9F74B5A9F1C95E4BB1 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		AC07E5BC717F56CD0AAF5147E52C514D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF20A32BBDA89212A5676E63801341E /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		AED03E3162C36ACCADE63F84A5FAA06B /* UIButtonBarArrowLeft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIButtonBarArrowLeft@2x.png"; path = "RETableViewManager/Resources/UIButtonBarArrowLeft@2x.png"; sourceTree = "<group>"; };
+		B175600B76FB32C6F30F569A5898019E /* Pods-WXHook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXHook-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1F248834F044FED3716BB53FE35FEFA /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		B22E744784237F5FFA807DD33799207F /* Ribbon_Expired.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Ribbon_Expired.png; path = RETableViewManager/Resources/Ribbon_Expired.png; sourceTree = "<group>"; };
+		B27B1022B30E45C0833D8CB2B71282F3 /* Pods-WXHook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXHook-frameworks.sh"; sourceTree = "<group>"; };
+		B285FD16071756AFB7BBD467AAE95218 /* RETableViewCreditCardCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewCreditCardCell.h; path = RETableViewManager/Cells/RETableViewCreditCardCell.h; sourceTree = "<group>"; };
+		B2B18CD7D24D730530E59E20764E63D2 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		B35AE6C3CFD15A2EA8BB1DCC2CF455EA /* Pods-WXHookDylib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXHookDylib-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3DC9AEE8551B9F0E84A6166088F079B /* RECreditCardItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECreditCardItem.m; path = RETableViewManager/Items/RECreditCardItem.m; sourceTree = "<group>"; };
+		B43B2AD539EFF755749DDD4B9094924D /* Transparent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Transparent@2x.png"; path = "RETableViewManager/Resources/Transparent@2x.png"; sourceTree = "<group>"; };
+		B48C2301C55218A4FB369D27D8933C3C /* Card_Mastercard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Card_Mastercard.png; path = RETableViewManager/Resources/Card_Mastercard.png; sourceTree = "<group>"; };
+		B73E28F3CA4C86EC85A65A19C1F772C1 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		B779ABA12BE9071C07DBC85E9F1DEEA7 /* REDateTimeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REDateTimeItem.h; path = RETableViewManager/Items/REDateTimeItem.h; sourceTree = "<group>"; };
+		BC06B5898EBC573DA3A90B05403DCBEC /* RETableViewFloatCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewFloatCell.h; path = RETableViewManager/Cells/RETableViewFloatCell.h; sourceTree = "<group>"; };
+		BC14114E0C180F9D27E5EE3B77E81EF0 /* RETableViewCellStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewCellStyle.h; path = RETableViewManager/RETableViewCellStyle.h; sourceTree = "<group>"; };
+		BDB9ECEB636A869D1CE093771359CDE3 /* RERadioItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RERadioItem.h; path = RETableViewManager/Items/RERadioItem.h; sourceTree = "<group>"; };
+		BE97ECA85A5D9EB7F77F6F4AD77DECAB /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BA9ABEDF1A8A741E927FA77FA07795 /* REValidation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REValidation-prefix.pch"; sourceTree = "<group>"; };
+		C11C71AA17D1ED5D5F6606164B6B4A14 /* RESegmentedItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESegmentedItem.m; path = RETableViewManager/Items/RESegmentedItem.m; sourceTree = "<group>"; };
+		C4386EC39DE58A5076AD7EE1127FBB74 /* RETableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RETableViewManager.modulemap; sourceTree = "<group>"; };
+		C45B680308C539DB7853430DA3CA3486 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		C4CD23B0915295B12E88E1A0DAA60E24 /* REURLValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REURLValidator.h; path = REValidation/Validators/REURLValidator.h; sourceTree = "<group>"; };
+		C512CD17DC9B17CD2E2BEF7409184AD8 /* REFormattedNumberField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = REFormattedNumberField.framework; path = REFormattedNumberField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56D5504439161FF372C1EBB768B5BB0 /* NSBundle+RETableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+RETableViewManager.m"; path = "RETableViewManager/NSBundle+RETableViewManager.m"; sourceTree = "<group>"; };
+		C583D2A24C25F137D80DE1E7DC024D4E /* Ono-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ono-umbrella.h"; sourceTree = "<group>"; };
+		C96FB4C9238C298E64D822B7781F511D /* RETableViewManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RETableViewManager.bundle; path = "RETableViewManager-RETableViewManager.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0B4884F166F1CFAEAABB4203AEBFFC /* RESegmentedItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESegmentedItem.h; path = RETableViewManager/Items/RESegmentedItem.h; sourceTree = "<group>"; };
+		D12EEA903D601B06734CF1817A2FCAFC /* RETableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RETableViewManager-prefix.pch"; sourceTree = "<group>"; };
+		D56B50149A32980AF2AB55C9535BC4C5 /* NSString+RETableViewManagerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RETableViewManagerAdditions.m"; path = "RETableViewManager/NSString+RETableViewManagerAdditions.m"; sourceTree = "<group>"; };
+		D8E58C48467E3610FE07C8C43908E3B5 /* RETableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewSection.h; path = RETableViewManager/RETableViewSection.h; sourceTree = "<group>"; };
+		DAEB1F732F360B05CCC6E86F90EB08ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC55FBF96EDA34400A4FC2951B452007 /* UIButtonBarArrowLeft.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UIButtonBarArrowLeft.png; path = RETableViewManager/Resources/UIButtonBarArrowLeft.png; sourceTree = "<group>"; };
+		E1B90DDB713843B7CF33428138646619 /* REValidation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REValidation-umbrella.h"; sourceTree = "<group>"; };
+		E2598ABF636540A6C91FE769E3F59B2F /* Ono-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ono-prefix.pch"; sourceTree = "<group>"; };
+		E2EBC122F93B652CEFFF35A9DF2D576D /* REPickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REPickerItem.m; path = RETableViewManager/Items/REPickerItem.m; sourceTree = "<group>"; };
+		E3024ADFD080701582B8E15FC37A37BA /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		E38CDF0B74D578E026BA8D1C5119DCFD /* REMultipleChoiceItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REMultipleChoiceItem.h; path = RETableViewManager/Items/REMultipleChoiceItem.h; sourceTree = "<group>"; };
+		E3E39532EEF6F50D29458F0F296D887F /* Card_Amex.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Card_Amex.png; path = RETableViewManager/Resources/Card_Amex.png; sourceTree = "<group>"; };
+		E710165B60CF588BBB212DF691707FE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E738A1EFB5BA0E9DE6BC618B60B18134 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		ECBB4AA533D399295472076C9EEA87AF /* RECreditCardItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECreditCardItem.h; path = RETableViewManager/Items/RECreditCardItem.h; sourceTree = "<group>"; };
+		ED05317052F796B8236674C395EBC21D /* Pods_WXHookDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WXHookDylib.framework; path = "Pods-WXHookDylib.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBB1FBB50F1585F17DD64BF36C695FB /* REValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REValidator.h; path = REValidation/REValidator.h; sourceTree = "<group>"; };
+		EDC232A0AC14CF26B480E8183DF3BEC6 /* Pods-WXHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXHook.release.xcconfig"; sourceTree = "<group>"; };
+		EDD0A7EF543C4587849CCF3F97899EFF /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		EE4D8B21FF58033E7F81B568EBB9F928 /* RERadioItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RERadioItem.m; path = RETableViewManager/Items/RERadioItem.m; sourceTree = "<group>"; };
+		EED8260B0CF658E00AEA2465712BC1E1 /* RETableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewManager.h; path = RETableViewManager/RETableViewManager.h; sourceTree = "<group>"; };
+		EF8CE1478E68E1A0DEBD1123978F439D /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		F0123B1BDF665DF33DFF59F2ACF6307C /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		F0CBE37ADBAE9071B3DF0145CDF22B26 /* REPlaceholderTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REPlaceholderTextView.m; path = RETableViewManager/REPlaceholderTextView.m; sourceTree = "<group>"; };
+		F201AEF228EEF613AF6BD635F7898AF5 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		F212B03D3F010024781129354C789956 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F2A0C78CEEA0CC422328D07716779F07 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F2BEF1398E32276DC31748E7AAA38704 /* Card_Discover@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Card_Discover@2x.png"; path = "RETableViewManager/Resources/Card_Discover@2x.png"; sourceTree = "<group>"; };
+		F38DA6C5298A0F0F7B003C4D49A0B1BC /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		F3F3FE37315779A136012590DA26ABD3 /* Pods-WXHookDylib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXHookDylib-umbrella.h"; sourceTree = "<group>"; };
+		F3F48DF0BA143264290881E8B2E585CF /* NSError+REValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+REValidation.m"; path = "REValidation/NSError+REValidation.m"; sourceTree = "<group>"; };
+		F405868EF40B81F7C4A172A5CA24AA41 /* REFloatItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFloatItem.m; path = RETableViewManager/Items/REFloatItem.m; sourceTree = "<group>"; };
+		F662E9D88C7420B8EF7AA81640FA902B /* REPickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REPickerItem.h; path = RETableViewManager/Items/REPickerItem.h; sourceTree = "<group>"; };
+		F68B1E2D60018BEA33854EECBA210A9B /* Pods-WXHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXHook.debug.xcconfig"; sourceTree = "<group>"; };
+		FACB39BF0DF7679C163F29DEE74481FE /* REInlinePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REInlinePickerItem.h; path = RETableViewManager/Items/REInlinePickerItem.h; sourceTree = "<group>"; };
+		FBA173C3469B8D6B5F4F5E534F9DDE6C /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FF0D87E40BBB62ABD1289A4C8885B2F1 /* Card_Amex@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Card_Amex@2x.png"; path = "RETableViewManager/Resources/Card_Amex@2x.png"; sourceTree = "<group>"; };
+		FF1D0FDD9EEF146F6551C43771D81CA9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B772291DB31D7D02E0B8F02EF1F260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBF82FECE17674136E56CDA5AF175A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE276D861CC9F97242AFDFE7CC7FF3E /* Foundation.framework in Frameworks */,
+				B586E157156998E5D3DE3A20E359D0A0 /* REFormattedNumberField.framework in Frameworks */,
+				37152F3DDE7405070C2DD69CF26C6829 /* REValidation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1E3A95E883FDFBDFCB23330263203F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7390990ADCBF9AB82DCEC400A01D6F4A /* Foundation.framework in Frameworks */,
+				63C22A97B892045474C99EBCF60FDFB5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A32BB07CDB53D268A2BF4F69EC8EF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008570E0D715091ADFBE4178EE069FA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEF050DB2FA0C574499C8ECE48935AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9792E579A277E866575A42EA0B576E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB933388E375C6E13F63D3230B88C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E408B92D84154F734F6D02187F60B14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3C667A9988528F7D80B7510CF4C0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7027CB7D7CB7C116E8D038FFD8A756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA99DC2F76C3B925182E78E9A14F397 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BBCA26FC25D88807D8EF4CE9C6160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51526261B24222798CD8A2360129B81E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AEA26FDCBFE70112D195BD78516B9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB1F732F360B05CCC6E86F90EB08ED /* Info.plist */,
+				7E1A3A342DB6BAC8ED267D28D6E59E2C /* Masonry.modulemap */,
+				2E1C68D419E10EE75CFEFB51537132E7 /* Masonry.xcconfig */,
+				EDD0A7EF543C4587849CCF3F97899EFF /* Masonry-dummy.m */,
+				4F82B964378ED7D08425A25FA40B1BCF /* Masonry-prefix.pch */,
+				782516F24575DC8B2E69701B90B32D7C /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		0C78E86C4C314BE83E947D5D52168A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7274FEDA6752977117E21E043DD92C52 /* FMDB */,
+				148E3FB81B6E6DDB36600CE226EDEF77 /* Masonry */,
+				9AE3FAF90569EFA195617085DFD5F891 /* Ono */,
+				6C9CB0E4D484C844FFF808BA34603DD8 /* REFormattedNumberField */,
+				4C240B45C2B0FABB7C6ABB234F483C2D /* RETableViewManager */,
+				4220ED7147D2FC11E8A69E9FEC51CD43 /* REValidation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		148E3FB81B6E6DDB36600CE226EDEF77 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0BB127962B574B69DD48A484A6634160 /* MASCompositeConstraint.h */,
+				36ADB6B33D9B6FD651DF1FC87FC9AF8B /* MASCompositeConstraint.m */,
+				B2B18CD7D24D730530E59E20764E63D2 /* MASConstraint.h */,
+				8BAF6DD212AF2FDFFDCDA228104AE7E8 /* MASConstraint.m */,
+				FBA173C3469B8D6B5F4F5E534F9DDE6C /* MASConstraint+Private.h */,
+				9DFB3DEFE36D27E672DD351ED4CDFCB2 /* MASConstraintMaker.h */,
+				E3024ADFD080701582B8E15FC37A37BA /* MASConstraintMaker.m */,
+				F212B03D3F010024781129354C789956 /* MASLayoutConstraint.h */,
+				448F123694E82C83248A4FB1E47231FD /* MASLayoutConstraint.m */,
+				B73E28F3CA4C86EC85A65A19C1F772C1 /* Masonry.h */,
+				A1E3F1483EE0281FFE8304F4C9BA51D9 /* MASUtilities.h */,
+				F38DA6C5298A0F0F7B003C4D49A0B1BC /* MASViewAttribute.h */,
+				3AE99C2527115ABDD8FEAB076367F506 /* MASViewAttribute.m */,
+				AB07E1BF3741DB9F74B5A9F1C95E4BB1 /* MASViewConstraint.h */,
+				8202B216C2FED740FD0A5657CCDDCB56 /* MASViewConstraint.m */,
+				613EB969626C9CECD5565ACFB8660DEB /* NSArray+MASAdditions.h */,
+				21E54A01184B644CC1A5E8AF3D6B4FA7 /* NSArray+MASAdditions.m */,
+				9D0EC33566140B539BD99C1D5BCAD72B /* NSArray+MASShorthandAdditions.h */,
+				81A1798B0193255F227A43BAB49BA844 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				89787DD90FB0605BD300EA8B6960329B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F0123B1BDF665DF33DFF59F2ACF6307C /* View+MASAdditions.h */,
+				689D8CAB18AE656BC91B84E204647D16 /* View+MASAdditions.m */,
+				426FADFC58D06FECB5CB4E6DA017659C /* View+MASShorthandAdditions.h */,
+				214FF3D7D188F72C336A436B47EF30FA /* ViewController+MASAdditions.h */,
+				F2A0C78CEEA0CC422328D07716779F07 /* ViewController+MASAdditions.m */,
+				04AEA26FDCBFE70112D195BD78516B9D /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		295576B18531210D9678F78AC7FBD610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3E39532EEF6F50D29458F0F296D887F /* Card_Amex.png */,
+				FF0D87E40BBB62ABD1289A4C8885B2F1 /* Card_Amex@2x.png */,
+				733814669D7AB218A8EC35F98FD1FC45 /* Card_Back.png */,
+				1ACBA4473DDFA84DD7D3DE023B279B38 /* Card_Back@2x.png */,
+				52C38470D1B0A9936933AF3A6A33665C /* Card_Discover.png */,
+				F2BEF1398E32276DC31748E7AAA38704 /* Card_Discover@2x.png */,
+				B48C2301C55218A4FB369D27D8933C3C /* Card_Mastercard.png */,
+				14E458079D9FD32AD4544D8E388B725E /* Card_Mastercard@2x.png */,
+				04FB5987CC3243B191DEE848EADCACE1 /* Card_Stack.png */,
+				A326AF80A71541FD5AB367CA37C9C643 /* Card_Stack@2x.png */,
+				778509BAA9E0E33E6F04B47D8E0F3822 /* Card_Visa.png */,
+				4E1B42E889EE5AC9301ACFB18B28648E /* Card_Visa@2x.png */,
+				B22E744784237F5FFA807DD33799207F /* Ribbon_Expired.png */,
+				3E9F925CAC8D6BDC9A78AC35B37E0754 /* Ribbon_Expired@2x.png */,
+				B43B2AD539EFF755749DDD4B9094924D /* Transparent@2x.png */,
+				DC55FBF96EDA34400A4FC2951B452007 /* UIButtonBarArrowLeft.png */,
+				AED03E3162C36ACCADE63F84A5FAA06B /* UIButtonBarArrowLeft@2x.png */,
+				8C752B68D4BBD8A53D00536DDF068C25 /* UIButtonBarArrowRight.png */,
+				04B78B1F37F4B6E8A4033F1ABFA1B7FD /* UIButtonBarArrowRight@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2B3EEEE5469742E2044DA1B6B3B41038 /* Pods-WXHookDylib */ = {
+			isa = PBXGroup;
+			children = (
+				86E4C9CDB8D549763BBE04C79DA263D5 /* Info.plist */,
+				3FDAFCE778545A270F356DBED935A9A2 /* Pods-WXHookDylib.modulemap */,
+				B35AE6C3CFD15A2EA8BB1DCC2CF455EA /* Pods-WXHookDylib-acknowledgements.markdown */,
+				0D2B34CE16E44AB64BCC7377BE885CDA /* Pods-WXHookDylib-acknowledgements.plist */,
+				8E3AC200ED85AA38AB5DA249682F8532 /* Pods-WXHookDylib-dummy.m */,
+				6E9006E08F24157DCBDF4031FDF56DE1 /* Pods-WXHookDylib-frameworks.sh */,
+				825E1B2A56C8F9FC367A6158668E4FE0 /* Pods-WXHookDylib-resources.sh */,
+				F3F3FE37315779A136012590DA26ABD3 /* Pods-WXHookDylib-umbrella.h */,
+				441A6FEDF9CBF05BFD430249320425D7 /* Pods-WXHookDylib.debug.xcconfig */,
+				565D7EF3BD64F3668621B3C48F2372DC /* Pods-WXHookDylib.release.xcconfig */,
+			);
+			name = "Pods-WXHookDylib";
+			path = "Target Support Files/Pods-WXHookDylib";
+			sourceTree = "<group>";
+		};
+		2BF3B17DB19F7002DD853150A92F98D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD13FF27BDEAD41C04ECB57B7F72466B /* Pods-WXHook */,
+				2B3EEEE5469742E2044DA1B6B3B41038 /* Pods-WXHookDylib */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C24885554CF6852B2DC02433D68BEC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9402C21D3780C7D1C980A954A1B7F153 /* Info.plist */,
+				644A34845A9A0EE6EEFA7EC1A4E63B01 /* REValidation.modulemap */,
+				90E8A47F244DE0064F3C2492204C279D /* REValidation.xcconfig */,
+				505ADDF44EBC80CFE95B6FE1DB0A7510 /* REValidation-dummy.m */,
+				C0BA9ABEDF1A8A741E927FA77FA07795 /* REValidation-prefix.pch */,
+				E1B90DDB713843B7CF33428138646619 /* REValidation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/REValidation";
+			sourceTree = "<group>";
+		};
+		409644BFA6AC1473551EF083BA77169F /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				E738A1EFB5BA0E9DE6BC618B60B18134 /* FMDatabase.h */,
+				8F8545060AF0A38FC5F69AD6AEB53C03 /* FMDatabase.m */,
+				562D85660758CA51BE09DA645E4841B7 /* FMDatabaseAdditions.h */,
+				89C704F489C7697E38DDB83492D45F43 /* FMDatabaseAdditions.m */,
+				F201AEF228EEF613AF6BD635F7898AF5 /* FMDatabasePool.h */,
+				A30E5EB806C5692A8EE6A62B71730ED8 /* FMDatabasePool.m */,
+				FF1D0FDD9EEF146F6551C43771D81CA9 /* FMDatabaseQueue.h */,
+				24713CC0B28CEDDCFFE420C29C857CDC /* FMDatabaseQueue.m */,
+				9A1CE2951AED52037D712BF6F02C1482 /* FMDB.h */,
+				EF8CE1478E68E1A0DEBD1123978F439D /* FMResultSet.h */,
+				C45B680308C539DB7853430DA3CA3486 /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		4220ED7147D2FC11E8A69E9FEC51CD43 /* REValidation */ = {
+			isa = PBXGroup;
+			children = (
+				297D8E120F8A24C92FFEAD84B17B35DF /* NSError+REValidation.h */,
+				F3F48DF0BA143264290881E8B2E585CF /* NSError+REValidation.m */,
+				2FED58EE40CD409340B893BF7797006A /* REEmailValidator.h */,
+				06F4635413F943BDA22791F705946E7F /* REEmailValidator.m */,
+				6A59D11EEDB987E6EFC4BE1065ACA427 /* RELengthValidator.h */,
+				48093783C6D1D5605DD1B1A407348CF1 /* RELengthValidator.m */,
+				479148587C06BBD336EBE3CCB7D08A62 /* REPresenceValidator.h */,
+				3DE11F2CF5C05817CE89CAA73318471E /* REPresenceValidator.m */,
+				C4CD23B0915295B12E88E1A0DAA60E24 /* REURLValidator.h */,
+				58FABD1F1CA9ED6CA66CAEDFA8FCCD17 /* REURLValidator.m */,
+				898406A532F5796D4A4F75B48705D1AA /* REValidation.h */,
+				2C67C2AB9F989646085E9B954DB8C92C /* REValidation.m */,
+				EDBB1FBB50F1585F17DD64BF36C695FB /* REValidator.h */,
+				067E32480A084B9EF6B791863D59B84E /* REValidator.m */,
+				2C24885554CF6852B2DC02433D68BEC0 /* Support Files */,
+			);
+			name = REValidation;
+			path = REValidation;
+			sourceTree = "<group>";
+		};
+		4C240B45C2B0FABB7C6ABB234F483C2D /* RETableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				1EC2B4E2283F27BD381A800A1A828077 /* NSBundle+RETableViewManager.h */,
+				C56D5504439161FF372C1EBB768B5BB0 /* NSBundle+RETableViewManager.m */,
+				5ACC3A97AE25AEC03B4CC4B311ADA4AB /* NSString+RETableViewManagerAdditions.h */,
+				D56B50149A32980AF2AB55C9535BC4C5 /* NSString+RETableViewManagerAdditions.m */,
+				6E9E2B06322B00E5DA0412A15A65FCAF /* REActionBar.h */,
+				0A0AE85566246E09D4046915BA8BADEE /* REActionBar.m */,
+				692A511A41DFC554F71155557BF413D6 /* REBoolItem.h */,
+				8CBDD53381FF1DA8FC5A62A636B19D4D /* REBoolItem.m */,
+				ECBB4AA533D399295472076C9EEA87AF /* RECreditCardItem.h */,
+				B3DC9AEE8551B9F0E84A6166088F079B /* RECreditCardItem.m */,
+				B779ABA12BE9071C07DBC85E9F1DEEA7 /* REDateTimeItem.h */,
+				A81B5F8DD704143EE83CF4E25A4291BC /* REDateTimeItem.m */,
+				816293376C49A7451E1F74E6002657A0 /* REFloatItem.h */,
+				F405868EF40B81F7C4A172A5CA24AA41 /* REFloatItem.m */,
+				0F4C32C3DDD32D5C256C844598D6F6C6 /* REInlineDatePickerItem.h */,
+				891A58CECB38D97DE831BD2A6F79018D /* REInlineDatePickerItem.m */,
+				FACB39BF0DF7679C163F29DEE74481FE /* REInlinePickerItem.h */,
+				08E7AF5D1B224029742634D17011C587 /* REInlinePickerItem.m */,
+				3DFD7E5D8C065D4A330D8B714BF0286E /* RELongTextItem.h */,
+				129F9AE041765C6C049219710BE0A10F /* RELongTextItem.m */,
+				E38CDF0B74D578E026BA8D1C5119DCFD /* REMultipleChoiceItem.h */,
+				2C43FB8CFB70DEFCEFD2370F88D63203 /* REMultipleChoiceItem.m */,
+				8F59D8D520EDA7F55E453A3A05172E8D /* RENumberItem.h */,
+				AA940888A0C10DB940B5C0D4797345B7 /* RENumberItem.m */,
+				F662E9D88C7420B8EF7AA81640FA902B /* REPickerItem.h */,
+				E2EBC122F93B652CEFFF35A9DF2D576D /* REPickerItem.m */,
+				5CBDE26BF861B9DF82F90AC1FED75747 /* REPlaceholderTextView.h */,
+				F0CBE37ADBAE9071B3DF0145CDF22B26 /* REPlaceholderTextView.m */,
+				BDB9ECEB636A869D1CE093771359CDE3 /* RERadioItem.h */,
+				EE4D8B21FF58033E7F81B568EBB9F928 /* RERadioItem.m */,
+				CD0B4884F166F1CFAEAABB4203AEBFFC /* RESegmentedItem.h */,
+				C11C71AA17D1ED5D5F6606164B6B4A14 /* RESegmentedItem.m */,
+				4765650FA04C29D85A63FB483D22AB15 /* RETableViewBoolCell.h */,
+				6E86423E8B23939E5843C7268C83B06B /* RETableViewBoolCell.m */,
+				37395489AE2A44B1EF8A240DE78B9F07 /* RETableViewCell.h */,
+				A5E4C03CB8795A08FEFB4820F4DFE76D /* RETableViewCell.m */,
+				BC14114E0C180F9D27E5EE3B77E81EF0 /* RETableViewCellStyle.h */,
+				86ECA372BD30A6C3C0FF4578CF0BECFD /* RETableViewCellStyle.m */,
+				B285FD16071756AFB7BBD467AAE95218 /* RETableViewCreditCardCell.h */,
+				89ED2722FAC4C6B658EDA909153E3DCB /* RETableViewCreditCardCell.m */,
+				0FC0D5D73B855A1E86CBB475418323FA /* RETableViewDateTimeCell.h */,
+				14C9367F0D48311D91BEC9658933CF98 /* RETableViewDateTimeCell.m */,
+				BC06B5898EBC573DA3A90B05403DCBEC /* RETableViewFloatCell.h */,
+				546E7AA0D53EB62DA75D70FAD29BA96C /* RETableViewFloatCell.m */,
+				24FF604DF7CD092CFAD23E83B256EE29 /* RETableViewInlineDatePickerCell.h */,
+				66C2A4882A8CC5D403B952906B4B24FA /* RETableViewInlineDatePickerCell.m */,
+				58418EB405FF389DE10F858091F3D51A /* RETableViewInlinePickerCell.h */,
+				A55B099E60966C0B51F9E81A85718D09 /* RETableViewInlinePickerCell.m */,
+				48D9311F568CB0631019420F1A39E413 /* RETableViewItem.h */,
+				4F48B17479158028BCFFACA0A1593C9D /* RETableViewItem.m */,
+				1CB9D9942A962199155746C6BF9F141E /* RETableViewLongTextCell.h */,
+				16E18E40341A3967BF37489D04F87095 /* RETableViewLongTextCell.m */,
+				EED8260B0CF658E00AEA2465712BC1E1 /* RETableViewManager.h */,
+				83E02559DA3F7CC976D87D692B05CCDA /* RETableViewManager.m */,
+				02807913D1398C240F31C5F6FCD3622E /* RETableViewNumberCell.h */,
+				14756E9FF5F9136E16FF77FFF7DE3703 /* RETableViewNumberCell.m */,
+				8C6DBE039C426CC61FFD24B5547BCAA3 /* RETableViewOptionCell.h */,
+				A8C23478BD7004FD3FECBE54CD2D4613 /* RETableViewOptionCell.m */,
+				778F63F24E7A44F9439318DBAEF89001 /* RETableViewOptionsController.h */,
+				09AF3F9FECF6F71A0372A2AB6648A7E5 /* RETableViewOptionsController.m */,
+				4C0DEE35CF93B0EC260A70E845068E94 /* RETableViewPickerCell.h */,
+				27C5284F72156748DAE66FAAF0EF1CC7 /* RETableViewPickerCell.m */,
+				D8E58C48467E3610FE07C8C43908E3B5 /* RETableViewSection.h */,
+				9B396F7CDA45383911F3F5B0489662A1 /* RETableViewSection.m */,
+				899826FF3BD720D4BDEEA509A7C4AFEA /* RETableViewSegmentedCell.h */,
+				4F973010AFCA1AE8655DD42E70624C6B /* RETableViewSegmentedCell.m */,
+				887BD6D2B976F9AA1216DCED33A07141 /* RETableViewTextCell.h */,
+				3C5D8D25A7B6CF1FBF576CC911113812 /* RETableViewTextCell.m */,
+				42F261E3D0D8F26C42F4CC1D858689F3 /* RETextItem.h */,
+				2FF3932D482F479162B089D37D58C83E /* RETextItem.m */,
+				295576B18531210D9678F78AC7FBD610 /* Resources */,
+				E39EDA3CD5A2F5499E1C4FE39674816A /* Support Files */,
+			);
+			name = RETableViewManager;
+			path = RETableViewManager;
+			sourceTree = "<group>";
+		};
+		59DC74C3B77452FA082F9D0BD7E78F9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1F248834F044FED3716BB53FE35FEFA /* FMDB.modulemap */,
+				6B7539D3342E934EF90805410E3BFCE9 /* FMDB.xcconfig */,
+				7ECA7AD4B4CDE98569E09512EFE0A843 /* FMDB-dummy.m */,
+				3FFA173610A703E7509C9936477A40ED /* FMDB-prefix.pch */,
+				ADF20A32BBDA89212A5676E63801341E /* FMDB-umbrella.h */,
+				3F195C891F7DF24F4B80C77F63096319 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		6C9CB0E4D484C844FFF808BA34603DD8 /* REFormattedNumberField */ = {
+			isa = PBXGroup;
+			children = (
+				0E68665E5DB163CC867788D8AC0D14C1 /* NSString+RENumberFormat.h */,
+				3856999DC984A5E3DFFE797EA029BF91 /* NSString+RENumberFormat.m */,
+				0927E4003976CF25AE9C10755E2ED0CF /* REFormattedNumberField.h */,
+				11C32FA1D60B8D2AA0D21EEAACF33705 /* REFormattedNumberField.m */,
+				BC8744AE830CA3D828C4B4B3478C9E38 /* Support Files */,
+			);
+			name = REFormattedNumberField;
+			path = REFormattedNumberField;
+			sourceTree = "<group>";
+		};
+		710A25A88F2C5541045833F2346C37E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD54FCB01683CFFE82C3CA982B4AF7 /* REFormattedNumberField.framework */,
+				9D6B78B17B46E2028F2D3DFC33CC8C25 /* REValidation.framework */,
+				B1E5C694961C19DF24C8F652C901CBCD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7274FEDA6752977117E21E043DD92C52 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				409644BFA6AC1473551EF083BA77169F /* standard */,
+				59DC74C3B77452FA082F9D0BD7E78F9D /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		9AE3FAF90569EFA195617085DFD5F891 /* Ono */ = {
+			isa = PBXGroup;
+			children = (
+				00AE54D55D4C4A1A40B61E46D875F8B7 /* Ono.h */,
+				0539644D43FF59B5F8144884C6B311D8 /* ONOXMLDocument.h */,
+				A7C0E22B612F4C099ECC484C131A9312 /* ONOXMLDocument.m */,
+				CB0CCD84AA01684117E00C75250956B8 /* Support Files */,
+			);
+			name = Ono;
+			path = Ono;
+			sourceTree = "<group>";
+		};
+		B1E5C694961C19DF24C8F652C901CBCD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E710165B60CF588BBB212DF691707FE9 /* Foundation.framework */,
+				530F4DCB311B991AE5C77C871C3CA85F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BC8744AE830CA3D828C4B4B3478C9E38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1148F76D2C4E38A4A99FF5A9F94E1A3D /* Info.plist */,
+				592ED871AC65FF9B13F461E6C2FA604B /* REFormattedNumberField.modulemap */,
+				124FFFA408518DE5BFF725BB2253E6A4 /* REFormattedNumberField.xcconfig */,
+				55050E7BEB99F4FF2AC02B725163EF50 /* REFormattedNumberField-dummy.m */,
+				445436990F8F8400C9EB841D679EEAA7 /* REFormattedNumberField-prefix.pch */,
+				44DD1EF69D8682410030C605CFFBB3B5 /* REFormattedNumberField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/REFormattedNumberField";
+			sourceTree = "<group>";
+		};
+		CB0CCD84AA01684117E00C75250956B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ECCE7330030F3D373167480CF4D34BC /* Info.plist */,
+				14C8F35561E1486D42517D2C048AA852 /* Ono.modulemap */,
+				3E67F634082CDA193BBA1EF67F325617 /* Ono.xcconfig */,
+				A8E37BC0E62934F91461E423FED97967 /* Ono-dummy.m */,
+				E2598ABF636540A6C91FE769E3F59B2F /* Ono-prefix.pch */,
+				C583D2A24C25F137D80DE1E7DC024D4E /* Ono-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ono";
+			sourceTree = "<group>";
+		};
+		CD13FF27BDEAD41C04ECB57B7F72466B /* Pods-WXHook */ = {
+			isa = PBXGroup;
+			children = (
+				5AC653202115A10CB1ADBFA4EFAED616 /* Pods-WXHook-acknowledgements.markdown */,
+				B175600B76FB32C6F30F569A5898019E /* Pods-WXHook-acknowledgements.plist */,
+				9151ECEE5C878237E3773DF584BF4FF5 /* Pods-WXHook-dummy.m */,
+				B27B1022B30E45C0833D8CB2B71282F3 /* Pods-WXHook-frameworks.sh */,
+				A85E857C5D9181EAAC5792CDE8A50177 /* Pods-WXHook-resources.sh */,
+				F68B1E2D60018BEA33854EECBA210A9B /* Pods-WXHook.debug.xcconfig */,
+				EDC232A0AC14CF26B480E8183DF3BEC6 /* Pods-WXHook.release.xcconfig */,
+			);
+			name = "Pods-WXHook";
+			path = "Target Support Files/Pods-WXHook";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				710A25A88F2C5541045833F2346C37E3 /* Frameworks */,
+				0C78E86C4C314BE83E947D5D52168A31 /* Pods */,
+				E77DC8A9250BC3141335108762476821 /* Products */,
+				2BF3B17DB19F7002DD853150A92F98D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E39EDA3CD5A2F5499E1C4FE39674816A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC07E5BC717F56CD0AAF5147E52C514D /* Info.plist */,
+				7E26371725BBFE201B8CB83AE114FE1D /* ResourceBundle-RETableViewManager-Info.plist */,
+				C4386EC39DE58A5076AD7EE1127FBB74 /* RETableViewManager.modulemap */,
+				475FA160813C970D93679002BC346A70 /* RETableViewManager.xcconfig */,
+				27105733F5598B3386FB77C67FB06CFB /* RETableViewManager-dummy.m */,
+				D12EEA903D601B06734CF1817A2FCAFC /* RETableViewManager-prefix.pch */,
+				907D1780C67AA2FCB47399424B57F741 /* RETableViewManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RETableViewManager";
+			sourceTree = "<group>";
+		};
+		E77DC8A9250BC3141335108762476821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE97ECA85A5D9EB7F77F6F4AD77DECAB /* FMDB.framework */,
+				02D6DB27A04E345A63713ACC5D572DAC /* libPods-WXHook.a */,
+				9F76494EC0BD184F795F02B982D5355D /* Masonry.framework */,
+				83391DEF13DA31C20F5C87DB393C8C45 /* Ono.framework */,
+				ED05317052F796B8236674C395EBC21D /* Pods_WXHookDylib.framework */,
+				C512CD17DC9B17CD2E2BEF7409184AD8 /* REFormattedNumberField.framework */,
+				C96FB4C9238C298E64D822B7781F511D /* RETableViewManager.bundle */,
+				78F2FD784B177CC92053F2FBFECFC34B /* RETableViewManager.framework */,
+				A141B0C75529CEEAE25143CAE073EA6C /* REValidation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E0510C9A84D7D9C8381BAD6438A6A9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2E30B56688FB9D46995A05F45B5BCF /* FMDatabase.h in Headers */,
+				6BA162F850CF5A59143AC3FE0D58CE32 /* FMDatabaseAdditions.h in Headers */,
+				843A80393130C719092B84C3D0482B8B /* FMDatabasePool.h in Headers */,
+				B2152E19444F3499F643E212D051F8D0 /* FMDatabaseQueue.h in Headers */,
+				F20B46808E7B20CCDC347C8594647E07 /* FMDB-umbrella.h in Headers */,
+				E7A30E51E8F1D20F2D97C515D1D87D27 /* FMDB.h in Headers */,
+				2BC0F034FDD2774C3DDB9F33E45EFEFB /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E91B6E6FE7172C55D81EE06F55382B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452E17222D0767F73597955697563D0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE3962B6786A1D26C1496AA4C1BFD37 /* Pods-WXHookDylib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E12D656B1075FD49747119A6BACD975 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BD880880398F3F9500B64FDCCE62B2 /* Ono-umbrella.h in Headers */,
+				7F26AFD1C302CB2FC64BCED869551D43 /* Ono.h in Headers */,
+				17223DB9268B201607BDFA94972C8DF7 /* ONOXMLDocument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823343B7BABCD43A5F6F714805392B3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3E06AFB7EB2FD2D677E4B940A4160A /* NSError+REValidation.h in Headers */,
+				94D8C1F13B984827F5AA8CB5FB70E9D2 /* REEmailValidator.h in Headers */,
+				263952CE18E0C4595EB6A29F2B50B64D /* RELengthValidator.h in Headers */,
+				D3824CA11695D726304E0439D6655718 /* REPresenceValidator.h in Headers */,
+				9D16A571FC17358F9F9C2DDE34EB7488 /* REURLValidator.h in Headers */,
+				A1D19560798DA7503EA261A81321A191 /* REValidation-umbrella.h in Headers */,
+				FCB2DD23CC2794A853B0B93462D63ACE /* REValidation.h in Headers */,
+				999D4A510F424592EB26D6A41770D202 /* REValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEF42D310945EF524479BE261E401C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE394E692A30796B0B8260680542A7 /* MASCompositeConstraint.h in Headers */,
+				94C1561BC701BB0EA90A7DD26B5D2D4F /* MASConstraint+Private.h in Headers */,
+				2FBE88AB6732B2F224FCEA7F490757EB /* MASConstraint.h in Headers */,
+				C5305C30EF88CDEFD1BFDE547F0B0932 /* MASConstraintMaker.h in Headers */,
+				13CF24549FA862851C8ADF5CFE22FEFD /* MASLayoutConstraint.h in Headers */,
+				A98413C6607F08050A4E1E4D4DBADD94 /* Masonry-umbrella.h in Headers */,
+				F50920C2026473CF11E5C635750F12EE /* Masonry.h in Headers */,
+				67843D6939DCFB92F851C88AD853EB8B /* MASUtilities.h in Headers */,
+				9269E802D3E20C338BDDFF5DA07029E5 /* MASViewAttribute.h in Headers */,
+				626B143296611EBC98F20F738CFB4AA8 /* MASViewConstraint.h in Headers */,
+				27F1DAFCBA43BFC893AAB8D70B811B04 /* NSArray+MASAdditions.h in Headers */,
+				1E4C2B7E07259DD5B60C4FE6A8A70C6F /* NSArray+MASShorthandAdditions.h in Headers */,
+				DADF5150B678D8FAB699D940DED2C71D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				357FF480909B78B01A5BBA13263779DE /* View+MASAdditions.h in Headers */,
+				4FDED973490EB6A8908D2671154FDB89 /* View+MASShorthandAdditions.h in Headers */,
+				C8B2C44773021FE52AE8D492B90F5787 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25D860549D28B8BD77A2FB8A5E8ADB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341913F61B0E0A5E12ED28248F605E6E /* NSBundle+RETableViewManager.h in Headers */,
+				C3024F1A473C0B423A4D6045245778ED /* NSString+RETableViewManagerAdditions.h in Headers */,
+				B8CA838A3624D20AA059AEC9B2BAFACE /* REActionBar.h in Headers */,
+				5A5708F2CA2F15175BA21D39433B459F /* REBoolItem.h in Headers */,
+				912F0F2BDB973B46718F880FFFFCD896 /* RECreditCardItem.h in Headers */,
+				6F999C6AC7DB5FC8531CD8F91FF89C67 /* REDateTimeItem.h in Headers */,
+				61584E70A53D1F5E4A418878560FE2DD /* REFloatItem.h in Headers */,
+				48B94606AEEF3F718B7BFF155FDCD668 /* REInlineDatePickerItem.h in Headers */,
+				C8AC79F2C2F5C89141BCD6F407D20002 /* REInlinePickerItem.h in Headers */,
+				3BB26CF5ABE1CCA14CF54A9C0C49A8D5 /* RELongTextItem.h in Headers */,
+				29C3DBA3DC1FDDFD5A2D411836247686 /* REMultipleChoiceItem.h in Headers */,
+				190A24D9F40904EEC4934C14F7724050 /* RENumberItem.h in Headers */,
+				C9EF3780585C67CC241CD51270C7A33B /* REPickerItem.h in Headers */,
+				5BF0892BE511AFE52313EE4AD934392F /* REPlaceholderTextView.h in Headers */,
+				C953DFB30721E346924C7FF5E54C9F30 /* RERadioItem.h in Headers */,
+				524F3418085AF48572584ABBC73BECE8 /* RESegmentedItem.h in Headers */,
+				E483C7F294BC6899332AF9B84E0AF03F /* RETableViewBoolCell.h in Headers */,
+				2840105B932B287182124C46CE02DCA1 /* RETableViewCell.h in Headers */,
+				54F9A61FF424EEC5C3BC8D71C391DA42 /* RETableViewCellStyle.h in Headers */,
+				5A3E4A8947F3AFAFDE088B6D7CB98182 /* RETableViewCreditCardCell.h in Headers */,
+				C3E4E82C2A980F0355219BA5A7F1AE64 /* RETableViewDateTimeCell.h in Headers */,
+				7E3A0ABF07C220C84E98070E58B4FAB4 /* RETableViewFloatCell.h in Headers */,
+				F73E33F1C435A7EDC49DB748C169901E /* RETableViewInlineDatePickerCell.h in Headers */,
+				E84ADBA78227AD8A12D7EC33E8B8E6AA /* RETableViewInlinePickerCell.h in Headers */,
+				E41ECAAC274E7D25DA39FD3829DBEC03 /* RETableViewItem.h in Headers */,
+				14EE1645B67DE0A1D6CF83112B9C714D /* RETableViewLongTextCell.h in Headers */,
+				1873C2709122C0DDC1FAF42292CF7125 /* RETableViewManager-umbrella.h in Headers */,
+				3A9C93CB0F8782653A727B680C3F2E5C /* RETableViewManager.h in Headers */,
+				30E061D49E49D70E7D816F855E957BD3 /* RETableViewNumberCell.h in Headers */,
+				735299C6CDC330D88E80662DFE848199 /* RETableViewOptionCell.h in Headers */,
+				B72F3D969223479B3FFF5834EE0A9E21 /* RETableViewOptionsController.h in Headers */,
+				868D6B251A1D1A66327F6C1449F8AC2D /* RETableViewPickerCell.h in Headers */,
+				B3AC51EEA72BD656B066DDD79EFE52DA /* RETableViewSection.h in Headers */,
+				41229681975ECE5BF873E5DE1B3C939F /* RETableViewSegmentedCell.h in Headers */,
+				5FFE220C83F22FA92EEBB4FA602146C9 /* RETableViewTextCell.h in Headers */,
+				4EBF5C8C43701415BE6DB1D4BADD0602 /* RETextItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC2203A5BEE062818725E9F4DD576B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE8EE636C68263C2800F3B3E1A93694 /* NSString+RENumberFormat.h in Headers */,
+				A41ACB5DE4761457D4548EF0BEC86545 /* REFormattedNumberField-umbrella.h in Headers */,
+				EF40EC8A11B11CC8231A27C4BAFB4345 /* REFormattedNumberField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64908377FC47CBE2E0EA0FA3CC30D3C1 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7964FEECC30DBE46B643F8DD34A835C /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				AEEF42D310945EF524479BE261E401C3 /* Headers */,
+				AC6071752917EDD9CA03308E10664ED0 /* Sources */,
+				3C1E3A95E883FDFBDFCB23330263203F /* Frameworks */,
+				94F1D38151CB787DCDF119BD0454392E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 9F76494EC0BD184F795F02B982D5355D /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D323238FCDE57AA62D81BAD858CFB11 /* Ono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577427F50CB59221687B9B8D43889087 /* Build configuration list for PBXNativeTarget "Ono" */;
+			buildPhases = (
+				4E12D656B1075FD49747119A6BACD975 /* Headers */,
+				E68A5F9363172F6FDB5826FA507519D2 /* Sources */,
+				4A32BB07CDB53D268A2BF4F69EC8EF91 /* Frameworks */,
+				9C5A13B0218B017A6AEFE4AF7A36E3A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ono;
+			productName = Ono;
+			productReference = 83391DEF13DA31C20F5C87DB393C8C45 /* Ono.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7799428065DCE3AABD803B22C600626B /* Pods-WXHookDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA119048E85A50D5C4EE4CA691D0A62 /* Build configuration list for PBXNativeTarget "Pods-WXHookDylib" */;
+			buildPhases = (
+				452E17222D0767F73597955697563D0B /* Headers */,
+				CC0D1EF07A62FAA1028F01CD915B08F4 /* Sources */,
+				BAB933388E375C6E13F63D3230B88C23 /* Frameworks */,
+				C368723CA69BBD149D7AA847F75684D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264C7DEB9CF6B74280CB89A80AA1E7E6 /* PBXTargetDependency */,
+				DCA665C78CB9F76B4311449DFEA3C51D /* PBXTargetDependency */,
+				C25BA15F8A7624F36EF1457BDC285F6D /* PBXTargetDependency */,
+				C4413C363A78F1B82254C3587DC07483 /* PBXTargetDependency */,
+				13CC9EF7292081268A468A2492B30A45 /* PBXTargetDependency */,
+				4B871B9004B853866B7AE29E3148B82E /* PBXTargetDependency */,
+			);
+			name = "Pods-WXHookDylib";
+			productName = "Pods-WXHookDylib";
+			productReference = ED05317052F796B8236674C395EBC21D /* Pods_WXHookDylib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C130CD3AA849E8ADCC55D0BC8E1020E /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54320349FAF7EBC4F27F14598AAA4511 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				2E0510C9A84D7D9C8381BAD6438A6A9F /* Headers */,
+				F59072949D67823723145257112F12B4 /* Sources */,
+				CC7027CB7D7CB7C116E8D038FFD8A756 /* Frameworks */,
+				A31E733A9011822CBEDFB2E937BA3317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = BE97ECA85A5D9EB7F77F6F4AD77DECAB /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C02DF396ED7F2F95CC3A011E5BBE8BAE /* RETableViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E75B2E8AB144A72BDD21013975B0418 /* Build configuration list for PBXNativeTarget "RETableViewManager" */;
+			buildPhases = (
+				B25D860549D28B8BD77A2FB8A5E8ADB0 /* Headers */,
+				C233B389B37B6E25D2F424B7FA511F87 /* Sources */,
+				0FBF82FECE17674136E56CDA5AF175A8 /* Frameworks */,
+				797B1F02AD4AEA93E35DFEE957F1B231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4C33D4E0ED01ED626FB31AAEEE8320 /* PBXTargetDependency */,
+				034EF7E2A9543256491E9A1D11AEAB2F /* PBXTargetDependency */,
+				76A2E028827B056D9D7F443A41440814 /* PBXTargetDependency */,
+			);
+			name = RETableViewManager;
+			productName = RETableViewManager;
+			productReference = 78F2FD784B177CC92053F2FBFECFC34B /* RETableViewManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D99FF2D04377F0F4BE102C168915E6A1 /* Pods-WXHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF5B618FCB9ABE768BE48827F7B6C98 /* Build configuration list for PBXNativeTarget "Pods-WXHook" */;
+			buildPhases = (
+				2E91B6E6FE7172C55D81EE06F55382B9 /* Headers */,
+				1CC8E7095C0BD43BBA3B34F4989B1C8E /* Sources */,
+				BB3C667A9988528F7D80B7510CF4C0DC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WXHook";
+			productName = "Pods-WXHook";
+			productReference = 02D6DB27A04E345A63713ACC5D572DAC /* libPods-WXHook.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E4EA04E3BC8D2B29EFFB688A7BCA8754 /* RETableViewManager-RETableViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE516A0198580B32E31894FDCC148166 /* Build configuration list for PBXNativeTarget "RETableViewManager-RETableViewManager" */;
+			buildPhases = (
+				0627D9D1AB0E3EC465863B0BFE6DB7DD /* Sources */,
+				01B772291DB31D7D02E0B8F02EF1F260 /* Frameworks */,
+				7FDC1EBC5949921FF1E26BFC1F4EC8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RETableViewManager-RETableViewManager";
+			productName = "RETableViewManager-RETableViewManager";
+			productReference = C96FB4C9238C298E64D822B7781F511D /* RETableViewManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F36B417BCC2BA9AB1A0FF21B9B4A953C /* REValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB41E019C4FEBD82A2F854B54EAC97E /* Build configuration list for PBXNativeTarget "REValidation" */;
+			buildPhases = (
+				823343B7BABCD43A5F6F714805392B3C /* Headers */,
+				838A558F7CCB5F2B38FAC20EF0EFB738 /* Sources */,
+				8BEF050DB2FA0C574499C8ECE48935AB /* Frameworks */,
+				7CE2D02197AB7BEAFB11CA76F3E9EC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REValidation;
+			productName = REValidation;
+			productReference = A141B0C75529CEEAE25143CAE073EA6C /* REValidation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3EA0094E2ABF0448ECA4C472AE12A01 /* REFormattedNumberField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE313B96B760A22D530493EAB4AAD7A /* Build configuration list for PBXNativeTarget "REFormattedNumberField" */;
+			buildPhases = (
+				BAC2203A5BEE062818725E9F4DD576B8 /* Headers */,
+				EDDA5FBC6CB2E3A5C9A005AB813016B3 /* Sources */,
+				D89BBCA26FC25D88807D8EF4CE9C6160 /* Frameworks */,
+				8F79AEF435CEF529368A1D4AC4EC4B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REFormattedNumberField;
+			productName = REFormattedNumberField;
+			productReference = C512CD17DC9B17CD2E2BEF7409184AD8 /* REFormattedNumberField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E77DC8A9250BC3141335108762476821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C130CD3AA849E8ADCC55D0BC8E1020E /* FMDB */,
+				64908377FC47CBE2E0EA0FA3CC30D3C1 /* Masonry */,
+				6D323238FCDE57AA62D81BAD858CFB11 /* Ono */,
+				D99FF2D04377F0F4BE102C168915E6A1 /* Pods-WXHook */,
+				7799428065DCE3AABD803B22C600626B /* Pods-WXHookDylib */,
+				F3EA0094E2ABF0448ECA4C472AE12A01 /* REFormattedNumberField */,
+				C02DF396ED7F2F95CC3A011E5BBE8BAE /* RETableViewManager */,
+				E4EA04E3BC8D2B29EFFB688A7BCA8754 /* RETableViewManager-RETableViewManager */,
+				F36B417BCC2BA9AB1A0FF21B9B4A953C /* REValidation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797B1F02AD4AEA93E35DFEE957F1B231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F979FA568F0DFD095A5A9B4933FECD58 /* RETableViewManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE2D02197AB7BEAFB11CA76F3E9EC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDC1EBC5949921FF1E26BFC1F4EC8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F1475D13FDCEE823500566F15B0532 /* Card_Amex.png in Resources */,
+				98733F787BBFD5556D90D82E46805C3D /* Card_Amex@2x.png in Resources */,
+				F4BB175539BCC099E23D11BF326E6E06 /* Card_Back.png in Resources */,
+				26A2190D2DD2818B74E3A6828C1AC800 /* Card_Back@2x.png in Resources */,
+				6437B86FF1686EC9F2637419EE87C00C /* Card_Discover.png in Resources */,
+				6D5E94B9AD1914043DC0136E02654D05 /* Card_Discover@2x.png in Resources */,
+				0012C264B39E4338D90AEAA498F75B64 /* Card_Mastercard.png in Resources */,
+				943FB087E88357D63D157F83D7C2D116 /* Card_Mastercard@2x.png in Resources */,
+				80E9FF0D8821539867ED77966398535E /* Card_Stack.png in Resources */,
+				CC5DF482B2C2AF028FAB3707AFCDD35D /* Card_Stack@2x.png in Resources */,
+				809BE2996DBB64DA003E0248F5BF43C9 /* Card_Visa.png in Resources */,
+				96C6B1720194F2E211E32425C3ECACCE /* Card_Visa@2x.png in Resources */,
+				6C86154CE847C298454B5C046D22B67E /* Ribbon_Expired.png in Resources */,
+				00D9CAD37715DD6885D291181C4171A6 /* Ribbon_Expired@2x.png in Resources */,
+				7D502BC4015D98BB389EFAD2832777F6 /* Transparent@2x.png in Resources */,
+				BF2B730059CAD0B0894EDF35547828C0 /* UIButtonBarArrowLeft.png in Resources */,
+				4C5E062CBCC4C74C96A8E72305F3731E /* UIButtonBarArrowLeft@2x.png in Resources */,
+				C149CCA7743532B48DE0D9FC3DFD6E99 /* UIButtonBarArrowRight.png in Resources */,
+				BC6B05CE9206ADDAAE174D64BB296CFC /* UIButtonBarArrowRight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F79AEF435CEF529368A1D4AC4EC4B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F1D38151CB787DCDF119BD0454392E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5A13B0218B017A6AEFE4AF7A36E3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31E733A9011822CBEDFB2E937BA3317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C368723CA69BBD149D7AA847F75684D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0627D9D1AB0E3EC465863B0BFE6DB7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC8E7095C0BD43BBA3B34F4989B1C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA0D30DF423EAF798B0C33B781E7F18 /* Pods-WXHook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838A558F7CCB5F2B38FAC20EF0EFB738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA135FDC68AF83AD2B94E373F076A6C /* NSError+REValidation.m in Sources */,
+				8AD72162AED2D25238B8B1D15A315142 /* REEmailValidator.m in Sources */,
+				76AAA093F939DB7BBA5139122DB9D65A /* RELengthValidator.m in Sources */,
+				597305003CE41EA903D4BF82C271EE73 /* REPresenceValidator.m in Sources */,
+				2BF3C3422D773C5DDB6A529D8EE1B105 /* REURLValidator.m in Sources */,
+				6FDBC53A1095BFFEA2BAA85BDA5C484F /* REValidation-dummy.m in Sources */,
+				31D311C3F533D944DFE0A5051CA69F17 /* REValidation.m in Sources */,
+				9121B92119667E44F8A31D304A2835D9 /* REValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6071752917EDD9CA03308E10664ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C9CAD634744DFE373DA45B0CD1806C /* MASCompositeConstraint.m in Sources */,
+				62449CA0C38A2DC85B0982B25394E90E /* MASConstraint.m in Sources */,
+				57DFE313C53DA21975AD94A81F166BD1 /* MASConstraintMaker.m in Sources */,
+				BC9D138592743C6138E5EEBDCF679053 /* MASLayoutConstraint.m in Sources */,
+				DDA0C9910C0F791259FCB4E0E85F3DBD /* Masonry-dummy.m in Sources */,
+				07818F5781210B4DD5E5D0E0E77CE532 /* MASViewAttribute.m in Sources */,
+				73300003438DC542B9D0546D73877707 /* MASViewConstraint.m in Sources */,
+				DDC5DE76CA3AC9073FB5C6BFBA026AFE /* NSArray+MASAdditions.m in Sources */,
+				D892D5CB8E1711B1FE8FCA30D5D1713F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				75C5B6C21E0CC4898AE48E52DDA91375 /* View+MASAdditions.m in Sources */,
+				C58C96ECEB8DA48FD48BF98210048834 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C233B389B37B6E25D2F424B7FA511F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E047CA28F0C24607D9306BC5ED26BF /* NSBundle+RETableViewManager.m in Sources */,
+				A0FECD0ECA5073A3EDF4E203EEBDC65D /* NSString+RETableViewManagerAdditions.m in Sources */,
+				BE1BD98091ED661454C666127221850F /* REActionBar.m in Sources */,
+				DB547B068C20016570754924EAC45A57 /* REBoolItem.m in Sources */,
+				DA3307805BB7EBA94345005A19EDC076 /* RECreditCardItem.m in Sources */,
+				43C66A85AC11B6B1C5183179E13B4327 /* REDateTimeItem.m in Sources */,
+				1B4B42B8F2802D8D91B65B483F07FB2A /* REFloatItem.m in Sources */,
+				B9E3F206AA9C63E9D2F94C7BCDB6F5AB /* REInlineDatePickerItem.m in Sources */,
+				F52733D4C98399362FE36F051F20C4BC /* REInlinePickerItem.m in Sources */,
+				178CB7207373D101B7C5AF2042C32D8D /* RELongTextItem.m in Sources */,
+				BF700ED49D66CE07EA0F6CB4DCABCB0B /* REMultipleChoiceItem.m in Sources */,
+				96CAD12A35AD06A932B83820579A2E2F /* RENumberItem.m in Sources */,
+				972C2DDDCB4556E73EA2BA8DBDA2347B /* REPickerItem.m in Sources */,
+				504E834245FBF9D5F0F2310DA87AA069 /* REPlaceholderTextView.m in Sources */,
+				7ED7B8054CED3517993B85A5D6FF7ED9 /* RERadioItem.m in Sources */,
+				8FD2EED16023842E03C1F554570B7821 /* RESegmentedItem.m in Sources */,
+				2EB17628D1D32951A849856DC0367B89 /* RETableViewBoolCell.m in Sources */,
+				076395E8CCBA24F47294286FAAD4DC80 /* RETableViewCell.m in Sources */,
+				4470417758ABDA638A66F6108AF6AE79 /* RETableViewCellStyle.m in Sources */,
+				078D114C0B45CEB495D672259E3BEF7A /* RETableViewCreditCardCell.m in Sources */,
+				A838CB5473E75E5F511C3E2696F7E5E6 /* RETableViewDateTimeCell.m in Sources */,
+				4902FCDE4934B349AEDD8273F23B1838 /* RETableViewFloatCell.m in Sources */,
+				5C734D670BA15D412F0FF90EEBBBF075 /* RETableViewInlineDatePickerCell.m in Sources */,
+				7CD1638D0EE78B931414FC5D16E5CFDE /* RETableViewInlinePickerCell.m in Sources */,
+				40220B2FA16001EDB1B1B26D52FA41D1 /* RETableViewItem.m in Sources */,
+				76E85F6AFD00A3770E1318585CA65097 /* RETableViewLongTextCell.m in Sources */,
+				6D763C8524B57E4E596F04E2AF86D776 /* RETableViewManager-dummy.m in Sources */,
+				D4F559BFFD56DA0CDF0CB382029298D6 /* RETableViewManager.m in Sources */,
+				C1567AC51203A3DF5237C34E9BC092C2 /* RETableViewNumberCell.m in Sources */,
+				F2C345BC4ECE40D27E59219B79AED0E3 /* RETableViewOptionCell.m in Sources */,
+				72A491CE6877C46B2409BF4EB374D0A3 /* RETableViewOptionsController.m in Sources */,
+				7B84B1C7B2F46917B654346D31C874AF /* RETableViewPickerCell.m in Sources */,
+				D9AF7D9FF215A687177770AE1E224E05 /* RETableViewSection.m in Sources */,
+				F466B285D312DE88F60EDFEDCD4AAF7D /* RETableViewSegmentedCell.m in Sources */,
+				924AF75C348D5B953B6FE7564261F95B /* RETableViewTextCell.m in Sources */,
+				43DFB781254ECEB6F325C5AED1B53678 /* RETextItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0D1EF07A62FAA1028F01CD915B08F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3A26A2DB9AA52FEEE86ECF37E0E2E7 /* Pods-WXHookDylib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68A5F9363172F6FDB5826FA507519D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E27870A7A84B52E0F12E565BB2CF06 /* Ono-dummy.m in Sources */,
+				D7E785572B8A914BB492965ABD1FA94B /* ONOXMLDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDA5FBC6CB2E3A5C9A005AB813016B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C236D15C6DFB7C2DDCA0376E4AFC2C7C /* NSString+RENumberFormat.m in Sources */,
+				5FE8D081786A0DF2226095CDA2B884C4 /* REFormattedNumberField-dummy.m in Sources */,
+				63BD741D172A7610052D023B5EC38988 /* REFormattedNumberField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59072949D67823723145257112F12B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345ED7D1DE224E3C44BEFB66AA77444F /* FMDatabase.m in Sources */,
+				EBE4098D555B6DF8E362980173B9FFE4 /* FMDatabaseAdditions.m in Sources */,
+				9E571E872949B6C830D2663949733F28 /* FMDatabasePool.m in Sources */,
+				343B75E1B98C0E4169A0CD82B05480F2 /* FMDatabaseQueue.m in Sources */,
+				0C35EA82ECB4A24D772C66EB076F7867 /* FMDB-dummy.m in Sources */,
+				A059BACEA4B9C7791864C87ED449E9E5 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034EF7E2A9543256491E9A1D11AEAB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RETableViewManager-RETableViewManager";
+			target = E4EA04E3BC8D2B29EFFB688A7BCA8754 /* RETableViewManager-RETableViewManager */;
+			targetProxy = E684B0A03B7EE79C421362C68B0DC0AC /* PBXContainerItemProxy */;
+		};
+		13CC9EF7292081268A468A2492B30A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RETableViewManager;
+			target = C02DF396ED7F2F95CC3A011E5BBE8BAE /* RETableViewManager */;
+			targetProxy = 6EC1BDF3B5DC5571242BCCDBFB9FE5FC /* PBXContainerItemProxy */;
+		};
+		264C7DEB9CF6B74280CB89A80AA1E7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 9C130CD3AA849E8ADCC55D0BC8E1020E /* FMDB */;
+			targetProxy = 5849C382A693F0262F0B0BB758D1CF1E /* PBXContainerItemProxy */;
+		};
+		4B871B9004B853866B7AE29E3148B82E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REValidation;
+			target = F36B417BCC2BA9AB1A0FF21B9B4A953C /* REValidation */;
+			targetProxy = 3295A49A0D6AEDE78E0544946D67827A /* PBXContainerItemProxy */;
+		};
+		76A2E028827B056D9D7F443A41440814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REValidation;
+			target = F36B417BCC2BA9AB1A0FF21B9B4A953C /* REValidation */;
+			targetProxy = 6A5A3E42DF275D703B19BDEF3F99FFD5 /* PBXContainerItemProxy */;
+		};
+		C25BA15F8A7624F36EF1457BDC285F6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ono;
+			target = 6D323238FCDE57AA62D81BAD858CFB11 /* Ono */;
+			targetProxy = FD6C7FF54A678B512CEC46D1AC1F5D02 /* PBXContainerItemProxy */;
+		};
+		C4413C363A78F1B82254C3587DC07483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REFormattedNumberField;
+			target = F3EA0094E2ABF0448ECA4C472AE12A01 /* REFormattedNumberField */;
+			targetProxy = 2A32EDB41E30BDDEDFA559F95845AA48 /* PBXContainerItemProxy */;
+		};
+		DCA665C78CB9F76B4311449DFEA3C51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 64908377FC47CBE2E0EA0FA3CC30D3C1 /* Masonry */;
+			targetProxy = FF9298439B53DC87B94BE90923AA8D05 /* PBXContainerItemProxy */;
+		};
+		EC4C33D4E0ED01ED626FB31AAEEE8320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REFormattedNumberField;
+			target = F3EA0094E2ABF0448ECA4C472AE12A01 /* REFormattedNumberField */;
+			targetProxy = 8BD6A56B6211B050487FFE3803642F06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		013CF2C2BE17A77DA771BB4476077F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475FA160813C970D93679002BC346A70 /* RETableViewManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RETableViewManager/RETableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RETableViewManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RETableViewManager/RETableViewManager.modulemap";
+				PRODUCT_MODULE_NAME = RETableViewManager;
+				PRODUCT_NAME = RETableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		050FDC8195AE257900D299C81E806B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565D7EF3BD64F3668621B3C48F2372DC /* Pods-WXHookDylib.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXHookDylib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXHookDylib/Pods-WXHookDylib.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3073E9329E3D859060CB4B679A6C557C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4D752000B10E56E3F5B61BB4CC4496D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7539D3342E934EF90805410E3BFCE9 /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6952092FAF1D0935E79C5716BE52B457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E67F634082CDA193BBA1EF67F325617 /* Ono.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Ono/Ono-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ono/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Ono/Ono.modulemap";
+				PRODUCT_MODULE_NAME = Ono;
+				PRODUCT_NAME = Ono;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DEF2C767115B8DA7B7E725EC5EE4AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475FA160813C970D93679002BC346A70 /* RETableViewManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RETableViewManager";
+				INFOPLIST_FILE = "Target Support Files/RETableViewManager/ResourceBundle-RETableViewManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RETableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		724A278464D17DA79ACF36AD95FC5AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1C68D419E10EE75CFEFB51537132E7 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DD7E522165BE4ED75347078785655DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7539D3342E934EF90805410E3BFCE9 /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A13B91C8C699210C3D07A5BB3200A638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475FA160813C970D93679002BC346A70 /* RETableViewManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RETableViewManager";
+				INFOPLIST_FILE = "Target Support Files/RETableViewManager/ResourceBundle-RETableViewManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RETableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A987093ECDD82F4BB2CF04EAC3F4386C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441A6FEDF9CBF05BFD430249320425D7 /* Pods-WXHookDylib.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXHookDylib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXHookDylib/Pods-WXHookDylib.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF368190182221F916EC1281A542B99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68B1E2D60018BEA33854EECBA210A9B /* Pods-WXHook.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0DCCE9AF475CDA0B3EB45D6D3D7929A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E67F634082CDA193BBA1EF67F325617 /* Ono.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Ono/Ono-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ono/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Ono/Ono.modulemap";
+				PRODUCT_MODULE_NAME = Ono;
+				PRODUCT_NAME = Ono;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C35912DDD336CE8FF20F9E03F66F6104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E8A47F244DE0064F3C2492204C279D /* REValidation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/REValidation/REValidation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REValidation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/REValidation/REValidation.modulemap";
+				PRODUCT_MODULE_NAME = REValidation;
+				PRODUCT_NAME = REValidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA7DE0B3C4B93394476528E809DE062B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124FFFA408518DE5BFF725BB2253E6A4 /* REFormattedNumberField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/REFormattedNumberField/REFormattedNumberField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFormattedNumberField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/REFormattedNumberField/REFormattedNumberField.modulemap";
+				PRODUCT_MODULE_NAME = REFormattedNumberField;
+				PRODUCT_NAME = REFormattedNumberField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4E3635509BCA5AC982B56DC1443CA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E8A47F244DE0064F3C2492204C279D /* REValidation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/REValidation/REValidation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REValidation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/REValidation/REValidation.modulemap";
+				PRODUCT_MODULE_NAME = REValidation;
+				PRODUCT_NAME = REValidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7A100E5C5AB36C11302B8335E24FA7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475FA160813C970D93679002BC346A70 /* RETableViewManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RETableViewManager/RETableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RETableViewManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RETableViewManager/RETableViewManager.modulemap";
+				PRODUCT_MODULE_NAME = RETableViewManager;
+				PRODUCT_NAME = RETableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEA766C39518DCF310C1C229F1802396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC232A0AC14CF26B480E8183DF3BEC6 /* Pods-WXHook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E728C0BD3857BC99A5D2AD6ACDFBA09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F44D63F3DDD7EC4C6721424D1CAA7907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124FFFA408518DE5BFF725BB2253E6A4 /* REFormattedNumberField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/REFormattedNumberField/REFormattedNumberField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFormattedNumberField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/REFormattedNumberField/REFormattedNumberField.modulemap";
+				PRODUCT_MODULE_NAME = REFormattedNumberField;
+				PRODUCT_NAME = REFormattedNumberField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5D6F0B54E0E25CA750540BFD9ECB589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1C68D419E10EE75CFEFB51537132E7 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E75B2E8AB144A72BDD21013975B0418 /* Build configuration list for PBXNativeTarget "RETableViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A100E5C5AB36C11302B8335E24FA7D /* Debug */,
+				013CF2C2BE17A77DA771BB4476077F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E728C0BD3857BC99A5D2AD6ACDFBA09A /* Debug */,
+				3073E9329E3D859060CB4B679A6C557C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54320349FAF7EBC4F27F14598AAA4511 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D752000B10E56E3F5B61BB4CC4496D2 /* Debug */,
+				9DD7E522165BE4ED75347078785655DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577427F50CB59221687B9B8D43889087 /* Build configuration list for PBXNativeTarget "Ono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DCCE9AF475CDA0B3EB45D6D3D7929A /* Debug */,
+				6952092FAF1D0935E79C5716BE52B457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE313B96B760A22D530493EAB4AAD7A /* Build configuration list for PBXNativeTarget "REFormattedNumberField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7DE0B3C4B93394476528E809DE062B /* Debug */,
+				F44D63F3DDD7EC4C6721424D1CAA7907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA119048E85A50D5C4EE4CA691D0A62 /* Build configuration list for PBXNativeTarget "Pods-WXHookDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A987093ECDD82F4BB2CF04EAC3F4386C /* Debug */,
+				050FDC8195AE257900D299C81E806B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF5B618FCB9ABE768BE48827F7B6C98 /* Build configuration list for PBXNativeTarget "Pods-WXHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF368190182221F916EC1281A542B99A /* Debug */,
+				DEA766C39518DCF310C1C229F1802396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB41E019C4FEBD82A2F854B54EAC97E /* Build configuration list for PBXNativeTarget "REValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E3635509BCA5AC982B56DC1443CA97 /* Debug */,
+				C35912DDD336CE8FF20F9E03F66F6104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE516A0198580B32E31894FDCC148166 /* Build configuration list for PBXNativeTarget "RETableViewManager-RETableViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13B91C8C699210C3D07A5BB3200A638 /* Debug */,
+				6DEF2C767115B8DA7B7E725EC5EE4AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7964FEECC30DBE46B643F8DD34A835C /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724A278464D17DA79ACF36AD95FC5AC1 /* Debug */,
+				F5D6F0B54E0E25CA750540BFD9ECB589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,1285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7C91A6F55ED01CA83E547C /* libPods-WXHook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9328DE3FA4DAA5E4EDAD4AE /* libPods-WXHook.a */; };
+		9282172A9863073AF13C6785 /* Pods_WXHookDylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6BCFC0940B786DF7419B78 /* Pods_WXHookDylib.framework */; };
+		E1021D83231618B0007F94BC /* HookContactInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E1021D81231618B0007F94BC /* HookContactInfo.h */; };
+		E1021D84231618B0007F94BC /* HookContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E1021D82231618B0007F94BC /* HookContactInfo.m */; };
+		E155233723272D8B00E5485A /* EasyNavigationView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E155231323272D8B00E5485A /* EasyNavigationView+Add.m */; };
+		E155233823272D8B00E5485A /* EasyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E155231423272D8B00E5485A /* EasyNavigationController.m */; };
+		E155233923272D8B00E5485A /* EasyNavigationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E155231523272D8B00E5485A /* EasyNavigationButton.h */; };
+		E155233A23272D8B00E5485A /* EasyNavigationOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = E155231623272D8B00E5485A /* EasyNavigationOptions.m */; };
+		E155233B23272D8B00E5485A /* EasyNavigationScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = E155231723272D8B00E5485A /* EasyNavigationScroll.m */; };
+		E155233C23272D8B00E5485A /* EasyNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E155231823272D8B00E5485A /* EasyNavigationView.m */; };
+		E155233D23272D8B00E5485A /* EasyNavigationView+Scroll.h in Headers */ = {isa = PBXBuildFile; fileRef = E155231923272D8B00E5485A /* EasyNavigationView+Scroll.h */; };
+		E155233E23272D8B00E5485A /* EasyNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = E155231A23272D8B00E5485A /* EasyNavigation.h */; };
+		E155233F23272D8B00E5485A /* UITableViewController+EasyNavigationExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E155231C23272D8B00E5485A /* UITableViewController+EasyNavigationExt.m */; };
+		E155234023272D8B00E5485A /* NSObject+EasyKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = E155231D23272D8B00E5485A /* NSObject+EasyKVO.m */; };
+		E155234123272D8B00E5485A /* UIScrollView+EasyNavigationExt.h in Headers */ = {isa = PBXBuildFile; fileRef = E155231E23272D8B00E5485A /* UIScrollView+EasyNavigationExt.h */; };
+		E155234223272D8B00E5485A /* EasyKVOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E155231F23272D8B00E5485A /* EasyKVOInfo.m */; };
+		E155234323272D8B00E5485A /* UIView+EasyNavigationExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E155232023272D8B00E5485A /* UIView+EasyNavigationExt.m */; };
+		E155234423272D8B00E5485A /* UIViewController+EasyNavigationExt.h in Headers */ = {isa = PBXBuildFile; fileRef = E155232123272D8B00E5485A /* UIViewController+EasyNavigationExt.h */; };
+		E155234523272D8B00E5485A /* EasyKVOInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E155232223272D8B00E5485A /* EasyKVOInfo.h */; };
+		E155234623272D8B00E5485A /* UIScrollView+EasyNavigationExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E155232323272D8B00E5485A /* UIScrollView+EasyNavigationExt.m */; };
+		E155234723272D8B00E5485A /* NSObject+EasyKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = E155232423272D8B00E5485A /* NSObject+EasyKVO.h */; };
+		E155234823272D8B00E5485A /* UITableViewController+EasyNavigationExt.h in Headers */ = {isa = PBXBuildFile; fileRef = E155232523272D8B00E5485A /* UITableViewController+EasyNavigationExt.h */; };
+		E155234923272D8B00E5485A /* UIView+EasyNavigationExt.h in Headers */ = {isa = PBXBuildFile; fileRef = E155232623272D8B00E5485A /* UIView+EasyNavigationExt.h */; };
+		E155234A23272D8B00E5485A /* UIViewController+EasyNavigationExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E155232723272D8B00E5485A /* UIViewController+EasyNavigationExt.m */; };
+		E155234B23272D8B00E5485A /* EasyNavigationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E155232823272D8B00E5485A /* EasyNavigationUtils.m */; };
+		E155234C23272D8B00E5485A /* EasyNavigationView+RightButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E155232A23272D8B00E5485A /* EasyNavigationView+RightButton.h */; };
+		E155234D23272D8B00E5485A /* EasyNavigationView+LeftButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E155232B23272D8B00E5485A /* EasyNavigationView+LeftButton.m */; };
+		E155234E23272D8B00E5485A /* EasyNavigationView+RightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E155232C23272D8B00E5485A /* EasyNavigationView+RightButton.m */; };
+		E155234F23272D8B00E5485A /* EasyNavigationView+LeftButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E155232E23272D8B00E5485A /* EasyNavigationView+LeftButton.h */; };
+		E155235023272D8B00E5485A /* EasyNavigationScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = E155232F23272D8B00E5485A /* EasyNavigationScroll.h */; };
+		E155235123272D8B00E5485A /* EasyNavigationOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = E155233023272D8B00E5485A /* EasyNavigationOptions.h */; };
+		E155235223272D8B00E5485A /* EasyNavigationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E155233123272D8B00E5485A /* EasyNavigationButton.m */; };
+		E155235323272D8B00E5485A /* EasyNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E155233223272D8B00E5485A /* EasyNavigationController.h */; };
+		E155235423272D8B00E5485A /* EasyNavigationView+Add.h in Headers */ = {isa = PBXBuildFile; fileRef = E155233323272D8B00E5485A /* EasyNavigationView+Add.h */; };
+		E155235523272D8B00E5485A /* EasyNavigationView+Scroll.m in Sources */ = {isa = PBXBuildFile; fileRef = E155233423272D8B00E5485A /* EasyNavigationView+Scroll.m */; };
+		E155235623272D8B00E5485A /* EasyNavigationView.h in Headers */ = {isa = PBXBuildFile; fileRef = E155233523272D8B00E5485A /* EasyNavigationView.h */; };
+		E155235723272D8B00E5485A /* EasyNavigationUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E155233623272D8B00E5485A /* EasyNavigationUtils.h */; };
+		E15523B42327320400E5485A /* WXHookWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523B22327320400E5485A /* WXHookWindow.h */; };
+		E15523B52327320400E5485A /* WXHookWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523B32327320400E5485A /* WXHookWindow.m */; };
+		E15523B82327337D00E5485A /* HookRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523B62327337D00E5485A /* HookRootViewController.h */; };
+		E15523B92327337D00E5485A /* HookRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523B72327337D00E5485A /* HookRootViewController.m */; };
+		E15523C02327451300E5485A /* HomeFeatureCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523BD2327451300E5485A /* HomeFeatureCollectionViewCell.h */; };
+		E15523C12327451300E5485A /* HomeFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523BE2327451300E5485A /* HomeFeatureCollectionViewCell.m */; };
+		E15523C42327479500E5485A /* HomeFeatureGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523C22327479500E5485A /* HomeFeatureGroupCell.h */; };
+		E15523C52327479500E5485A /* HomeFeatureGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523C32327479500E5485A /* HomeFeatureGroupCell.m */; };
+		E15523C92327493300E5485A /* HomeFeatureCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523C72327493300E5485A /* HomeFeatureCellModel.h */; };
+		E15523CA2327493300E5485A /* HomeFeatureCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523C82327493300E5485A /* HomeFeatureCellModel.m */; };
+		E15523CD232749E500E5485A /* HomeFeatureGroupCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523CB232749E500E5485A /* HomeFeatureGroupCellModel.h */; };
+		E15523CE232749E500E5485A /* HomeFeatureGroupCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523CC232749E500E5485A /* HomeFeatureGroupCellModel.m */; };
+		E15523D12327551200E5485A /* HookBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523CF2327551200E5485A /* HookBaseViewController.h */; };
+		E15523D22327551200E5485A /* HookBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523D02327551200E5485A /* HookBaseViewController.m */; };
+		E15523D62327761000E5485A /* GlobalConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523D42327761000E5485A /* GlobalConfig.h */; };
+		E15523D72327761000E5485A /* GlobalConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523D52327761000E5485A /* GlobalConfig.m */; };
+		E15523DA232780C100E5485A /* GameSysCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523D8232780C100E5485A /* GameSysCenter.h */; };
+		E15523DB232780C100E5485A /* GameSysCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523D9232780C100E5485A /* GameSysCenter.m */; };
+		E15523DE2327819000E5485A /* HookTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523DC2327819000E5485A /* HookTableViewController.h */; };
+		E15523DF2327819000E5485A /* HookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523DD2327819000E5485A /* HookTableViewController.m */; };
+		E15523E2232782B000E5485A /* HookBusinessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523E0232782B000E5485A /* HookBusinessViewController.h */; };
+		E15523E3232782B000E5485A /* HookBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523E1232782B000E5485A /* HookBusinessViewController.m */; };
+		E15523E72327842E00E5485A /* GameGroupViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523E52327842E00E5485A /* GameGroupViewController.h */; };
+		E15523E82327842E00E5485A /* GameGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523E62327842E00E5485A /* GameGroupViewController.m */; };
+		E15523EB2327878A00E5485A /* HookBlankViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523E92327878A00E5485A /* HookBlankViewController.h */; };
+		E15523EC2327878A00E5485A /* HookBlankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523EA2327878A00E5485A /* HookBlankViewController.m */; };
+		E15523F12327972F00E5485A /* HookContactModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E15523EF2327972F00E5485A /* HookContactModel.h */; };
+		E15523F22327972F00E5485A /* HookContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E15523F02327972F00E5485A /* HookContactModel.m */; };
+		E1C054F52313DA38009AA1AB /* WeChatServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C054F32313DA38009AA1AB /* WeChatServiceManager.h */; };
+		E1C054F62313DA38009AA1AB /* WeChatServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C054F42313DA38009AA1AB /* WeChatServiceManager.m */; };
+		E1C054F823140DB3009AA1AB /* WeChatAppDelegateHook.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C054F723140DB3009AA1AB /* WeChatAppDelegateHook.m */; };
+		E1C0556C2314C4FD009AA1AB /* WeChatBaseDBMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C0556A2314C4FD009AA1AB /* WeChatBaseDBMgr.h */; };
+		E1C0556D2314C4FD009AA1AB /* WeChatBaseDBMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C0556B2314C4FD009AA1AB /* WeChatBaseDBMgr.m */; };
+		E1C055712314C633009AA1AB /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C0556F2314C633009AA1AB /* NSString+MD5.h */; };
+		E1C055722314C633009AA1AB /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C055702314C633009AA1AB /* NSString+MD5.m */; };
+		E1C055842314D54C009AA1AB /* UIView+MHFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C055822314D54C009AA1AB /* UIView+MHFrame.h */; };
+		E1C055852314D54C009AA1AB /* UIView+MHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C055832314D54C009AA1AB /* UIView+MHFrame.m */; };
+		E1C055862314D54C009AA1AB /* UIView+MHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C055832314D54C009AA1AB /* UIView+MHFrame.m */; };
+		E1C0558E23152281009AA1AB /* WeChatContactDBMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C0558C23152281009AA1AB /* WeChatContactDBMgr.h */; };
+		E1C0559023152281009AA1AB /* WeChatContactDBMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C0558D23152281009AA1AB /* WeChatContactDBMgr.m */; };
+		E1C05593231522C6009AA1AB /* WeChatMessageDBMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C05591231522C6009AA1AB /* WeChatMessageDBMgr.h */; };
+		E1C05595231522C6009AA1AB /* WeChatMessageDBMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C05592231522C6009AA1AB /* WeChatMessageDBMgr.m */; };
+		E1C055A223160586009AA1AB /* WeChat.app in Resources */ = {isa = PBXBuildFile; fileRef = E1C055A123160586009AA1AB /* WeChat.app */; };
+		E1CCD59E23139CEE0011C464 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1CCD59D23139CEE0011C464 /* MDConfig.plist */; };
+		E1CCD5A823139CEE0011C464 /* libWXHookDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1CCD5A723139CEE0011C464 /* libWXHookDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E1CCD5AD23139CEE0011C464 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCD5AC23139CEE0011C464 /* JavaScriptCore.framework */; };
+		E1CCD5AF23139CEE0011C464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCD5AE23139CEE0011C464 /* Foundation.framework */; };
+		E1CCD5B123139CEE0011C464 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCD5B023139CEE0011C464 /* UIKit.framework */; };
+		E1CCD5B623139CEE0011C464 /* WXHookDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1CCD5B523139CEE0011C464 /* WXHookDylib.mm */; };
+		E1CCD5B923139CEE0011C464 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CCD5B823139CEE0011C464 /* MDConfigManager.h */; };
+		E1CCD5BB23139CEE0011C464 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCD5BA23139CEE0011C464 /* MDConfigManager.m */; };
+		E1CCD5BD23139CEE0011C464 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CCD5BC23139CEE0011C464 /* MDCycriptManager.h */; };
+		E1CCD5BF23139CEE0011C464 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCD5BE23139CEE0011C464 /* MDCycriptManager.m */; };
+		E1CCD5C123139CEE0011C464 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CCD5C023139CEE0011C464 /* MDMethodTrace.h */; };
+		E1CCD5C323139CEE0011C464 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCD5C223139CEE0011C464 /* MDMethodTrace.m */; };
+		E1CCD5C523139CEE0011C464 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CCD5C423139CEE0011C464 /* ANYMethodLog.h */; };
+		E1CCD5C723139CEE0011C464 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCD5C623139CEE0011C464 /* ANYMethodLog.m */; };
+		E1CCD5CA23139CEE0011C464 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CCD5C923139CEE0011C464 /* LLDBTools.h */; };
+		E1CCD5CC23139CEE0011C464 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1CCD5CB23139CEE0011C464 /* LLDBTools.mm */; };
+		E1CCD5D123139CEE0011C464 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCD5D023139CEE0011C464 /* AntiAntiDebug.m */; };
+		E1CCD5D423139CEE0011C464 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CCD5D323139CEE0011C464 /* fishhook.c */; };
+		E1CCD5D623139CEE0011C464 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CCD5D523139CEE0011C464 /* fishhook.h */; };
+		E1CCD5D823139CEE0011C464 /* WXHookDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CCD5D723139CEE0011C464 /* WXHookDylib.h */; };
+		E1CCD5DA23139CEE0011C464 /* WXHookDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCD5D923139CEE0011C464 /* WXHookDylib.m */; };
+		E1EED7D92313BDB10054FE44 /* WeChatSessionUIListHook.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1EED7D82313BDB10054FE44 /* WeChatSessionUIListHook.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1CCD5A923139CEE0011C464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CCD58A23139CEE0011C464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CCD5A623139CEE0011C464;
+			remoteInfo = WXHookDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1CCD59223139CEE0011C464 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E1CCD5A823139CEE0011C464 /* libWXHookDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E6BCFC0940B786DF7419B78 /* Pods_WXHookDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXHookDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF745AF2FF53510CEA2BE67 /* Pods-WXHookDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXHookDylib.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXHookDylib/Pods-WXHookDylib.release.xcconfig"; sourceTree = "<group>"; };
+		BDEB1A43DDC2B5405048326F /* Pods-WXHookDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXHookDylib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXHookDylib/Pods-WXHookDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		CC63B1E1886A24C3DEAD96AE /* Pods-WXHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXHook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXHook/Pods-WXHook.debug.xcconfig"; sourceTree = "<group>"; };
+		D35DA68C1761B1ED139BCF22 /* Pods-WXHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXHook.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXHook/Pods-WXHook.release.xcconfig"; sourceTree = "<group>"; };
+		D9328DE3FA4DAA5E4EDAD4AE /* libPods-WXHook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXHook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1021D81231618B0007F94BC /* HookContactInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookContactInfo.h; sourceTree = "<group>"; };
+		E1021D82231618B0007F94BC /* HookContactInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookContactInfo.m; sourceTree = "<group>"; };
+		E155231323272D8B00E5485A /* EasyNavigationView+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNavigationView+Add.m"; sourceTree = "<group>"; };
+		E155231423272D8B00E5485A /* EasyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationController.m; sourceTree = "<group>"; };
+		E155231523272D8B00E5485A /* EasyNavigationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationButton.h; sourceTree = "<group>"; };
+		E155231623272D8B00E5485A /* EasyNavigationOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationOptions.m; sourceTree = "<group>"; };
+		E155231723272D8B00E5485A /* EasyNavigationScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationScroll.m; sourceTree = "<group>"; };
+		E155231823272D8B00E5485A /* EasyNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationView.m; sourceTree = "<group>"; };
+		E155231923272D8B00E5485A /* EasyNavigationView+Scroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNavigationView+Scroll.h"; sourceTree = "<group>"; };
+		E155231A23272D8B00E5485A /* EasyNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigation.h; sourceTree = "<group>"; };
+		E155231C23272D8B00E5485A /* UITableViewController+EasyNavigationExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+EasyNavigationExt.m"; sourceTree = "<group>"; };
+		E155231D23272D8B00E5485A /* NSObject+EasyKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EasyKVO.m"; sourceTree = "<group>"; };
+		E155231E23272D8B00E5485A /* UIScrollView+EasyNavigationExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EasyNavigationExt.h"; sourceTree = "<group>"; };
+		E155231F23272D8B00E5485A /* EasyKVOInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyKVOInfo.m; sourceTree = "<group>"; };
+		E155232023272D8B00E5485A /* UIView+EasyNavigationExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyNavigationExt.m"; sourceTree = "<group>"; };
+		E155232123272D8B00E5485A /* UIViewController+EasyNavigationExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EasyNavigationExt.h"; sourceTree = "<group>"; };
+		E155232223272D8B00E5485A /* EasyKVOInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyKVOInfo.h; sourceTree = "<group>"; };
+		E155232323272D8B00E5485A /* UIScrollView+EasyNavigationExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EasyNavigationExt.m"; sourceTree = "<group>"; };
+		E155232423272D8B00E5485A /* NSObject+EasyKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EasyKVO.h"; sourceTree = "<group>"; };
+		E155232523272D8B00E5485A /* UITableViewController+EasyNavigationExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+EasyNavigationExt.h"; sourceTree = "<group>"; };
+		E155232623272D8B00E5485A /* UIView+EasyNavigationExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyNavigationExt.h"; sourceTree = "<group>"; };
+		E155232723272D8B00E5485A /* UIViewController+EasyNavigationExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EasyNavigationExt.m"; sourceTree = "<group>"; };
+		E155232823272D8B00E5485A /* EasyNavigationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationUtils.m; sourceTree = "<group>"; };
+		E155232A23272D8B00E5485A /* EasyNavigationView+RightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNavigationView+RightButton.h"; sourceTree = "<group>"; };
+		E155232B23272D8B00E5485A /* EasyNavigationView+LeftButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNavigationView+LeftButton.m"; sourceTree = "<group>"; };
+		E155232C23272D8B00E5485A /* EasyNavigationView+RightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNavigationView+RightButton.m"; sourceTree = "<group>"; };
+		E155232D23272D8B00E5485A /* EasyNavButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyNavButton.bundle; sourceTree = "<group>"; };
+		E155232E23272D8B00E5485A /* EasyNavigationView+LeftButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNavigationView+LeftButton.h"; sourceTree = "<group>"; };
+		E155232F23272D8B00E5485A /* EasyNavigationScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationScroll.h; sourceTree = "<group>"; };
+		E155233023272D8B00E5485A /* EasyNavigationOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationOptions.h; sourceTree = "<group>"; };
+		E155233123272D8B00E5485A /* EasyNavigationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationButton.m; sourceTree = "<group>"; };
+		E155233223272D8B00E5485A /* EasyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationController.h; sourceTree = "<group>"; };
+		E155233323272D8B00E5485A /* EasyNavigationView+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNavigationView+Add.h"; sourceTree = "<group>"; };
+		E155233423272D8B00E5485A /* EasyNavigationView+Scroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNavigationView+Scroll.m"; sourceTree = "<group>"; };
+		E155233523272D8B00E5485A /* EasyNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationView.h; sourceTree = "<group>"; };
+		E155233623272D8B00E5485A /* EasyNavigationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationUtils.h; sourceTree = "<group>"; };
+		E15523B22327320400E5485A /* WXHookWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXHookWindow.h; sourceTree = "<group>"; };
+		E15523B32327320400E5485A /* WXHookWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXHookWindow.m; sourceTree = "<group>"; };
+		E15523B62327337D00E5485A /* HookRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookRootViewController.h; sourceTree = "<group>"; };
+		E15523B72327337D00E5485A /* HookRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookRootViewController.m; sourceTree = "<group>"; };
+		E15523BD2327451300E5485A /* HomeFeatureCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFeatureCollectionViewCell.h; sourceTree = "<group>"; };
+		E15523BE2327451300E5485A /* HomeFeatureCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFeatureCollectionViewCell.m; sourceTree = "<group>"; };
+		E15523C22327479500E5485A /* HomeFeatureGroupCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFeatureGroupCell.h; sourceTree = "<group>"; };
+		E15523C32327479500E5485A /* HomeFeatureGroupCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFeatureGroupCell.m; sourceTree = "<group>"; };
+		E15523C72327493300E5485A /* HomeFeatureCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFeatureCellModel.h; sourceTree = "<group>"; };
+		E15523C82327493300E5485A /* HomeFeatureCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFeatureCellModel.m; sourceTree = "<group>"; };
+		E15523CB232749E500E5485A /* HomeFeatureGroupCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFeatureGroupCellModel.h; sourceTree = "<group>"; };
+		E15523CC232749E500E5485A /* HomeFeatureGroupCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFeatureGroupCellModel.m; sourceTree = "<group>"; };
+		E15523CF2327551200E5485A /* HookBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookBaseViewController.h; sourceTree = "<group>"; };
+		E15523D02327551200E5485A /* HookBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookBaseViewController.m; sourceTree = "<group>"; };
+		E15523D42327761000E5485A /* GlobalConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
+		E15523D52327761000E5485A /* GlobalConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalConfig.m; sourceTree = "<group>"; };
+		E15523D8232780C100E5485A /* GameSysCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameSysCenter.h; sourceTree = "<group>"; };
+		E15523D9232780C100E5485A /* GameSysCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameSysCenter.m; sourceTree = "<group>"; };
+		E15523DC2327819000E5485A /* HookTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookTableViewController.h; sourceTree = "<group>"; };
+		E15523DD2327819000E5485A /* HookTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookTableViewController.m; sourceTree = "<group>"; };
+		E15523E0232782B000E5485A /* HookBusinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookBusinessViewController.h; sourceTree = "<group>"; };
+		E15523E1232782B000E5485A /* HookBusinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookBusinessViewController.m; sourceTree = "<group>"; };
+		E15523E52327842E00E5485A /* GameGroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameGroupViewController.h; sourceTree = "<group>"; };
+		E15523E62327842E00E5485A /* GameGroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameGroupViewController.m; sourceTree = "<group>"; };
+		E15523E92327878A00E5485A /* HookBlankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookBlankViewController.h; sourceTree = "<group>"; };
+		E15523EA2327878A00E5485A /* HookBlankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookBlankViewController.m; sourceTree = "<group>"; };
+		E15523EF2327972F00E5485A /* HookContactModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookContactModel.h; sourceTree = "<group>"; };
+		E15523F02327972F00E5485A /* HookContactModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookContactModel.m; sourceTree = "<group>"; };
+		E1C054F32313DA38009AA1AB /* WeChatServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatServiceManager.h; sourceTree = "<group>"; };
+		E1C054F42313DA38009AA1AB /* WeChatServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatServiceManager.m; sourceTree = "<group>"; };
+		E1C054F723140DB3009AA1AB /* WeChatAppDelegateHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatAppDelegateHook.m; sourceTree = "<group>"; };
+		E1C0556A2314C4FD009AA1AB /* WeChatBaseDBMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatBaseDBMgr.h; sourceTree = "<group>"; };
+		E1C0556B2314C4FD009AA1AB /* WeChatBaseDBMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatBaseDBMgr.m; sourceTree = "<group>"; };
+		E1C0556F2314C633009AA1AB /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		E1C055702314C633009AA1AB /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		E1C055822314D54C009AA1AB /* UIView+MHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MHFrame.h"; sourceTree = "<group>"; };
+		E1C055832314D54C009AA1AB /* UIView+MHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MHFrame.m"; sourceTree = "<group>"; };
+		E1C0558C23152281009AA1AB /* WeChatContactDBMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatContactDBMgr.h; sourceTree = "<group>"; };
+		E1C0558D23152281009AA1AB /* WeChatContactDBMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatContactDBMgr.m; sourceTree = "<group>"; };
+		E1C05591231522C6009AA1AB /* WeChatMessageDBMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatMessageDBMgr.h; sourceTree = "<group>"; };
+		E1C05592231522C6009AA1AB /* WeChatMessageDBMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatMessageDBMgr.m; sourceTree = "<group>"; };
+		E1C055A123160586009AA1AB /* WeChat.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = WeChat.app; path = TargetApp/WeChat.app; sourceTree = "<group>"; };
+		E1CCD59523139CEE0011C464 /* WXHook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXHook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CCD59823139CEE0011C464 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E1CCD59923139CEE0011C464 /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
+		E1CCD59B23139CEE0011C464 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		E1CCD59D23139CEE0011C464 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		E1CCD5A023139CEE0011C464 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		E1CCD5A123139CEE0011C464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CCD5A723139CEE0011C464 /* libWXHookDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libWXHookDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CCD5AC23139CEE0011C464 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E1CCD5AE23139CEE0011C464 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1CCD5B023139CEE0011C464 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1CCD5B423139CEE0011C464 /* WXHookDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = WXHookDylib.xm; path = Logos/WXHookDylib.xm; sourceTree = "<group>"; };
+		E1CCD5B523139CEE0011C464 /* WXHookDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = WXHookDylib.mm; path = Logos/WXHookDylib.mm; sourceTree = "<group>"; };
+		E1CCD5B823139CEE0011C464 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		E1CCD5BA23139CEE0011C464 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		E1CCD5BC23139CEE0011C464 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		E1CCD5BE23139CEE0011C464 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		E1CCD5C023139CEE0011C464 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		E1CCD5C223139CEE0011C464 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		E1CCD5C423139CEE0011C464 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		E1CCD5C623139CEE0011C464 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		E1CCD5C923139CEE0011C464 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		E1CCD5CB23139CEE0011C464 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		E1CCD5CE23139CEE0011C464 /* WXHookDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXHookDylib-Prefix.pch"; sourceTree = "<group>"; };
+		E1CCD5D023139CEE0011C464 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		E1CCD5D323139CEE0011C464 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		E1CCD5D523139CEE0011C464 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		E1CCD5D723139CEE0011C464 /* WXHookDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXHookDylib.h; sourceTree = "<group>"; };
+		E1CCD5D923139CEE0011C464 /* WXHookDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXHookDylib.m; sourceTree = "<group>"; };
+		E1EED7D82313BDB10054FE44 /* WeChatSessionUIListHook.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChatSessionUIListHook.mm; sourceTree = "<group>"; };
+		E1EED7DA2313BE780054FE44 /* WeChatHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CCD58F23139CEE0011C464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7C91A6F55ED01CA83E547C /* libPods-WXHook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CCD5A423139CEE0011C464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CCD5AD23139CEE0011C464 /* JavaScriptCore.framework in Frameworks */,
+				E1CCD5B123139CEE0011C464 /* UIKit.framework in Frameworks */,
+				E1CCD5AF23139CEE0011C464 /* Foundation.framework in Frameworks */,
+				9282172A9863073AF13C6785 /* Pods_WXHookDylib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		492AB63F3436D16B5098836A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC63B1E1886A24C3DEAD96AE /* Pods-WXHook.debug.xcconfig */,
+				D35DA68C1761B1ED139BCF22 /* Pods-WXHook.release.xcconfig */,
+				BDEB1A43DDC2B5405048326F /* Pods-WXHookDylib.debug.xcconfig */,
+				AFF745AF2FF53510CEA2BE67 /* Pods-WXHookDylib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E155231123272D6400E5485A /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				E155231223272D8B00E5485A /* EasyNavigation */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		E155231223272D8B00E5485A /* EasyNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				E155232923272D8B00E5485A /* EasyNavButton */,
+				E155231B23272D8B00E5485A /* EasyNavExt */,
+				E155231A23272D8B00E5485A /* EasyNavigation.h */,
+				E155231523272D8B00E5485A /* EasyNavigationButton.h */,
+				E155233123272D8B00E5485A /* EasyNavigationButton.m */,
+				E155233223272D8B00E5485A /* EasyNavigationController.h */,
+				E155231423272D8B00E5485A /* EasyNavigationController.m */,
+				E155233023272D8B00E5485A /* EasyNavigationOptions.h */,
+				E155231623272D8B00E5485A /* EasyNavigationOptions.m */,
+				E155232F23272D8B00E5485A /* EasyNavigationScroll.h */,
+				E155231723272D8B00E5485A /* EasyNavigationScroll.m */,
+				E155233623272D8B00E5485A /* EasyNavigationUtils.h */,
+				E155232823272D8B00E5485A /* EasyNavigationUtils.m */,
+				E155233523272D8B00E5485A /* EasyNavigationView.h */,
+				E155231823272D8B00E5485A /* EasyNavigationView.m */,
+				E155233323272D8B00E5485A /* EasyNavigationView+Add.h */,
+				E155231323272D8B00E5485A /* EasyNavigationView+Add.m */,
+				E155231923272D8B00E5485A /* EasyNavigationView+Scroll.h */,
+				E155233423272D8B00E5485A /* EasyNavigationView+Scroll.m */,
+			);
+			path = EasyNavigation;
+			sourceTree = "<group>";
+		};
+		E155231B23272D8B00E5485A /* EasyNavExt */ = {
+			isa = PBXGroup;
+			children = (
+				E155231C23272D8B00E5485A /* UITableViewController+EasyNavigationExt.m */,
+				E155231D23272D8B00E5485A /* NSObject+EasyKVO.m */,
+				E155231E23272D8B00E5485A /* UIScrollView+EasyNavigationExt.h */,
+				E155231F23272D8B00E5485A /* EasyKVOInfo.m */,
+				E155232023272D8B00E5485A /* UIView+EasyNavigationExt.m */,
+				E155232123272D8B00E5485A /* UIViewController+EasyNavigationExt.h */,
+				E155232223272D8B00E5485A /* EasyKVOInfo.h */,
+				E155232323272D8B00E5485A /* UIScrollView+EasyNavigationExt.m */,
+				E155232423272D8B00E5485A /* NSObject+EasyKVO.h */,
+				E155232523272D8B00E5485A /* UITableViewController+EasyNavigationExt.h */,
+				E155232623272D8B00E5485A /* UIView+EasyNavigationExt.h */,
+				E155232723272D8B00E5485A /* UIViewController+EasyNavigationExt.m */,
+			);
+			path = EasyNavExt;
+			sourceTree = "<group>";
+		};
+		E155232923272D8B00E5485A /* EasyNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				E155232A23272D8B00E5485A /* EasyNavigationView+RightButton.h */,
+				E155232B23272D8B00E5485A /* EasyNavigationView+LeftButton.m */,
+				E155232C23272D8B00E5485A /* EasyNavigationView+RightButton.m */,
+				E155232D23272D8B00E5485A /* EasyNavButton.bundle */,
+				E155232E23272D8B00E5485A /* EasyNavigationView+LeftButton.h */,
+			);
+			path = EasyNavButton;
+			sourceTree = "<group>";
+		};
+		E15523BA232744BC00E5485A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E15523C62327491700E5485A /* Model */,
+				E15523BC232744E700E5485A /* View */,
+				E15523BB232744CC00E5485A /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E15523BB232744CC00E5485A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E15523B62327337D00E5485A /* HookRootViewController.h */,
+				E15523B72327337D00E5485A /* HookRootViewController.m */,
+				E15523E92327878A00E5485A /* HookBlankViewController.h */,
+				E15523EA2327878A00E5485A /* HookBlankViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E15523BC232744E700E5485A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E15523BD2327451300E5485A /* HomeFeatureCollectionViewCell.h */,
+				E15523BE2327451300E5485A /* HomeFeatureCollectionViewCell.m */,
+				E15523C22327479500E5485A /* HomeFeatureGroupCell.h */,
+				E15523C32327479500E5485A /* HomeFeatureGroupCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E15523C62327491700E5485A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E15523C72327493300E5485A /* HomeFeatureCellModel.h */,
+				E15523C82327493300E5485A /* HomeFeatureCellModel.m */,
+				E15523CB232749E500E5485A /* HomeFeatureGroupCellModel.h */,
+				E15523CC232749E500E5485A /* HomeFeatureGroupCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E15523D3232775EE00E5485A /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				E15523D42327761000E5485A /* GlobalConfig.h */,
+				E15523D52327761000E5485A /* GlobalConfig.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		E15523E4232783DC00E5485A /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				E15523ED232794A200E5485A /* GameGroup */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		E15523ED232794A200E5485A /* GameGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E15523E52327842E00E5485A /* GameGroupViewController.h */,
+				E15523E62327842E00E5485A /* GameGroupViewController.m */,
+			);
+			path = GameGroup;
+			sourceTree = "<group>";
+		};
+		E15523EE232796B100E5485A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E15523D8232780C100E5485A /* GameSysCenter.h */,
+				E15523D9232780C100E5485A /* GameSysCenter.m */,
+				E15523EF2327972F00E5485A /* HookContactModel.h */,
+				E15523F02327972F00E5485A /* HookContactModel.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		E1C054F12313DA14009AA1AB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E1C0558B2315217B009AA1AB /* DB */,
+				E1C054F32313DA38009AA1AB /* WeChatServiceManager.h */,
+				E1C054F42313DA38009AA1AB /* WeChatServiceManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E1C0556E2314C621009AA1AB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E1C0556F2314C633009AA1AB /* NSString+MD5.h */,
+				E1C055702314C633009AA1AB /* NSString+MD5.m */,
+				E1C055822314D54C009AA1AB /* UIView+MHFrame.h */,
+				E1C055832314D54C009AA1AB /* UIView+MHFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E1C055772314D317009AA1AB /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				E15523B22327320400E5485A /* WXHookWindow.h */,
+				E15523B32327320400E5485A /* WXHookWindow.m */,
+				E15523CF2327551200E5485A /* HookBaseViewController.h */,
+				E15523D02327551200E5485A /* HookBaseViewController.m */,
+				E15523DC2327819000E5485A /* HookTableViewController.h */,
+				E15523DD2327819000E5485A /* HookTableViewController.m */,
+				E15523E0232782B000E5485A /* HookBusinessViewController.h */,
+				E15523E1232782B000E5485A /* HookBusinessViewController.m */,
+				E15523BA232744BC00E5485A /* Home */,
+				E15523E4232783DC00E5485A /* Business */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
+		E1C0558B2315217B009AA1AB /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				E1C0556A2314C4FD009AA1AB /* WeChatBaseDBMgr.h */,
+				E1C0556B2314C4FD009AA1AB /* WeChatBaseDBMgr.m */,
+				E1C0558C23152281009AA1AB /* WeChatContactDBMgr.h */,
+				E1C0558D23152281009AA1AB /* WeChatContactDBMgr.m */,
+				E1C05591231522C6009AA1AB /* WeChatMessageDBMgr.h */,
+				E1C05592231522C6009AA1AB /* WeChatMessageDBMgr.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		E1CCD58923139CEE0011C464 = {
+			isa = PBXGroup;
+			children = (
+				E1CCD59723139CEE0011C464 /* WXHook */,
+				E1CCD5B223139CEE0011C464 /* WXHookDylib */,
+				E1CCD5AB23139CEE0011C464 /* Frameworks */,
+				E1CCD59623139CEE0011C464 /* Products */,
+				492AB63F3436D16B5098836A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CCD59623139CEE0011C464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD59523139CEE0011C464 /* WXHook.app */,
+				E1CCD5A723139CEE0011C464 /* libWXHookDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CCD59723139CEE0011C464 /* WXHook */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD59823139CEE0011C464 /* icon.png */,
+				E1CCD59923139CEE0011C464 /* Target.plist */,
+				E1CCD5A123139CEE0011C464 /* Info.plist */,
+				E1CCD59A23139CEE0011C464 /* Scripts */,
+				E1CCD59C23139CEE0011C464 /* Config */,
+				E1CCD59F23139CEE0011C464 /* TargetApp */,
+			);
+			path = WXHook;
+			sourceTree = "<group>";
+		};
+		E1CCD59A23139CEE0011C464 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD59B23139CEE0011C464 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		E1CCD59C23139CEE0011C464 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD59D23139CEE0011C464 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		E1CCD59F23139CEE0011C464 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				E1C055A123160586009AA1AB /* WeChat.app */,
+				E1CCD5A023139CEE0011C464 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		E1CCD5AB23139CEE0011C464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD5AC23139CEE0011C464 /* JavaScriptCore.framework */,
+				E1CCD5AE23139CEE0011C464 /* Foundation.framework */,
+				E1CCD5B023139CEE0011C464 /* UIKit.framework */,
+				D9328DE3FA4DAA5E4EDAD4AE /* libPods-WXHook.a */,
+				8E6BCFC0940B786DF7419B78 /* Pods_WXHookDylib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1CCD5B223139CEE0011C464 /* WXHookDylib */ = {
+			isa = PBXGroup;
+			children = (
+				E15523EE232796B100E5485A /* General */,
+				E15523D3232775EE00E5485A /* Help */,
+				E155231123272D6400E5485A /* Vendor */,
+				E1C055772314D317009AA1AB /* Units */,
+				E1C0556E2314C621009AA1AB /* Category */,
+				E1C054F12313DA14009AA1AB /* Manager */,
+				E1EED7D72313BD760054FE44 /* Hook */,
+				E1EED7D62313BCBF0054FE44 /* Headers */,
+				E1CCD5D723139CEE0011C464 /* WXHookDylib.h */,
+				E1CCD5D923139CEE0011C464 /* WXHookDylib.m */,
+				E1CCD5B323139CEE0011C464 /* Logos */,
+				E1CCD5B723139CEE0011C464 /* Config */,
+				E1CCD5C823139CEE0011C464 /* Tools */,
+				E1CCD5CF23139CEE0011C464 /* AntiAntiDebug */,
+				E1CCD5D223139CEE0011C464 /* fishhook */,
+				E1CCD5CD23139CEE0011C464 /* Supporting Files */,
+			);
+			path = WXHookDylib;
+			sourceTree = "<group>";
+		};
+		E1CCD5B323139CEE0011C464 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD5B423139CEE0011C464 /* WXHookDylib.xm */,
+				E1CCD5B523139CEE0011C464 /* WXHookDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		E1CCD5B723139CEE0011C464 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD5B823139CEE0011C464 /* MDConfigManager.h */,
+				E1CCD5BA23139CEE0011C464 /* MDConfigManager.m */,
+				E1CCD5BC23139CEE0011C464 /* MDCycriptManager.h */,
+				E1CCD5BE23139CEE0011C464 /* MDCycriptManager.m */,
+				E1CCD5C023139CEE0011C464 /* MDMethodTrace.h */,
+				E1CCD5C223139CEE0011C464 /* MDMethodTrace.m */,
+				E1CCD5C423139CEE0011C464 /* ANYMethodLog.h */,
+				E1CCD5C623139CEE0011C464 /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		E1CCD5C823139CEE0011C464 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD5C923139CEE0011C464 /* LLDBTools.h */,
+				E1CCD5CB23139CEE0011C464 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		E1CCD5CD23139CEE0011C464 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD5CE23139CEE0011C464 /* WXHookDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1CCD5CF23139CEE0011C464 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD5D023139CEE0011C464 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		E1CCD5D223139CEE0011C464 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCD5D323139CEE0011C464 /* fishhook.c */,
+				E1CCD5D523139CEE0011C464 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+		E1EED7D62313BCBF0054FE44 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E1021D81231618B0007F94BC /* HookContactInfo.h */,
+				E1021D82231618B0007F94BC /* HookContactInfo.m */,
+				E1EED7DA2313BE780054FE44 /* WeChatHeader.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		E1EED7D72313BD760054FE44 /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				E1EED7D82313BDB10054FE44 /* WeChatSessionUIListHook.mm */,
+				E1C054F723140DB3009AA1AB /* WeChatAppDelegateHook.m */,
+			);
+			name = Hook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E1CCD5A523139CEE0011C464 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CCD5BD23139CEE0011C464 /* MDCycriptManager.h in Headers */,
+				E1CCD5C123139CEE0011C464 /* MDMethodTrace.h in Headers */,
+				E15523DE2327819000E5485A /* HookTableViewController.h in Headers */,
+				E155233923272D8B00E5485A /* EasyNavigationButton.h in Headers */,
+				E155234423272D8B00E5485A /* UIViewController+EasyNavigationExt.h in Headers */,
+				E155234C23272D8B00E5485A /* EasyNavigationView+RightButton.h in Headers */,
+				E15523E2232782B000E5485A /* HookBusinessViewController.h in Headers */,
+				E1CCD5CA23139CEE0011C464 /* LLDBTools.h in Headers */,
+				E1C0558E23152281009AA1AB /* WeChatContactDBMgr.h in Headers */,
+				E15523DA232780C100E5485A /* GameSysCenter.h in Headers */,
+				E155234823272D8B00E5485A /* UITableViewController+EasyNavigationExt.h in Headers */,
+				E1CCD5D823139CEE0011C464 /* WXHookDylib.h in Headers */,
+				E15523C02327451300E5485A /* HomeFeatureCollectionViewCell.h in Headers */,
+				E155235123272D8B00E5485A /* EasyNavigationOptions.h in Headers */,
+				E155235623272D8B00E5485A /* EasyNavigationView.h in Headers */,
+				E155234123272D8B00E5485A /* UIScrollView+EasyNavigationExt.h in Headers */,
+				E155234523272D8B00E5485A /* EasyKVOInfo.h in Headers */,
+				E1C055842314D54C009AA1AB /* UIView+MHFrame.h in Headers */,
+				E155234F23272D8B00E5485A /* EasyNavigationView+LeftButton.h in Headers */,
+				E1C05593231522C6009AA1AB /* WeChatMessageDBMgr.h in Headers */,
+				E15523E72327842E00E5485A /* GameGroupViewController.h in Headers */,
+				E155235723272D8B00E5485A /* EasyNavigationUtils.h in Headers */,
+				E155235323272D8B00E5485A /* EasyNavigationController.h in Headers */,
+				E155233E23272D8B00E5485A /* EasyNavigation.h in Headers */,
+				E15523F12327972F00E5485A /* HookContactModel.h in Headers */,
+				E1C054F52313DA38009AA1AB /* WeChatServiceManager.h in Headers */,
+				E155234723272D8B00E5485A /* NSObject+EasyKVO.h in Headers */,
+				E155233D23272D8B00E5485A /* EasyNavigationView+Scroll.h in Headers */,
+				E1CCD5B923139CEE0011C464 /* MDConfigManager.h in Headers */,
+				E1021D83231618B0007F94BC /* HookContactInfo.h in Headers */,
+				E15523D12327551200E5485A /* HookBaseViewController.h in Headers */,
+				E1CCD5C523139CEE0011C464 /* ANYMethodLog.h in Headers */,
+				E15523EB2327878A00E5485A /* HookBlankViewController.h in Headers */,
+				E155235023272D8B00E5485A /* EasyNavigationScroll.h in Headers */,
+				E1C055712314C633009AA1AB /* NSString+MD5.h in Headers */,
+				E15523CD232749E500E5485A /* HomeFeatureGroupCellModel.h in Headers */,
+				E1C0556C2314C4FD009AA1AB /* WeChatBaseDBMgr.h in Headers */,
+				E15523B42327320400E5485A /* WXHookWindow.h in Headers */,
+				E15523C92327493300E5485A /* HomeFeatureCellModel.h in Headers */,
+				E155234923272D8B00E5485A /* UIView+EasyNavigationExt.h in Headers */,
+				E1CCD5D623139CEE0011C464 /* fishhook.h in Headers */,
+				E15523C42327479500E5485A /* HomeFeatureGroupCell.h in Headers */,
+				E15523D62327761000E5485A /* GlobalConfig.h in Headers */,
+				E15523B82327337D00E5485A /* HookRootViewController.h in Headers */,
+				E155235423272D8B00E5485A /* EasyNavigationView+Add.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E1CCD59423139CEE0011C464 /* WXHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CCD5E023139CEE0011C464 /* Build configuration list for PBXNativeTarget "WXHook" */;
+			buildPhases = (
+				ED906F5CF0036F1D07075BC7 /* [CP] Check Pods Manifest.lock */,
+				E1CCD58E23139CEE0011C464 /* Sources */,
+				E1CCD58F23139CEE0011C464 /* Frameworks */,
+				E1CCD59023139CEE0011C464 /* ShellScript */,
+				E1CCD59123139CEE0011C464 /* Resources */,
+				E1CCD59223139CEE0011C464 /* CopyFiles */,
+				E1CCD59323139CEE0011C464 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CCD5AA23139CEE0011C464 /* PBXTargetDependency */,
+			);
+			name = WXHook;
+			productName = WXHook;
+			productReference = E1CCD59523139CEE0011C464 /* WXHook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1CCD5A623139CEE0011C464 /* WXHookDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CCD5DD23139CEE0011C464 /* Build configuration list for PBXNativeTarget "WXHookDylib" */;
+			buildPhases = (
+				C130287930AE242E9E17D090 /* [CP] Check Pods Manifest.lock */,
+				E1CCD5A223139CEE0011C464 /* ShellScript */,
+				E1CCD5A323139CEE0011C464 /* Sources */,
+				E1CCD5A423139CEE0011C464 /* Frameworks */,
+				E1CCD5A523139CEE0011C464 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXHookDylib;
+			productName = WXHookDylib;
+			productReference = E1CCD5A723139CEE0011C464 /* libWXHookDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CCD58A23139CEE0011C464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = cocoawork;
+				TargetAttributes = {
+					E1CCD59423139CEE0011C464 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E1CCD5A623139CEE0011C464 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E1CCD58D23139CEE0011C464 /* Build configuration list for PBXProject "WXHook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1CCD58923139CEE0011C464;
+			productRefGroup = E1CCD59623139CEE0011C464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CCD59423139CEE0011C464 /* WXHook */,
+				E1CCD5A623139CEE0011C464 /* WXHookDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CCD59123139CEE0011C464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CCD59E23139CEE0011C464 /* MDConfig.plist in Resources */,
+				E1C055A223160586009AA1AB /* WeChat.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C130287930AE242E9E17D090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXHookDylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CCD59023139CEE0011C464 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh\n";
+		};
+		E1CCD59323139CEE0011C464 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign\n";
+		};
+		E1CCD5A223139CEE0011C464 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos\n";
+		};
+		ED906F5CF0036F1D07075BC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXHook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CCD58E23139CEE0011C464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C055852314D54C009AA1AB /* UIView+MHFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CCD5A323139CEE0011C464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155233A23272D8B00E5485A /* EasyNavigationOptions.m in Sources */,
+				E15523E3232782B000E5485A /* HookBusinessViewController.m in Sources */,
+				E1CCD5BF23139CEE0011C464 /* MDCycriptManager.m in Sources */,
+				E1CCD5C723139CEE0011C464 /* ANYMethodLog.m in Sources */,
+				E1CCD5DA23139CEE0011C464 /* WXHookDylib.m in Sources */,
+				E1021D84231618B0007F94BC /* HookContactInfo.m in Sources */,
+				E1CCD5BB23139CEE0011C464 /* MDConfigManager.m in Sources */,
+				E1C05595231522C6009AA1AB /* WeChatMessageDBMgr.m in Sources */,
+				E155233B23272D8B00E5485A /* EasyNavigationScroll.m in Sources */,
+				E15523DF2327819000E5485A /* HookTableViewController.m in Sources */,
+				E15523D22327551200E5485A /* HookBaseViewController.m in Sources */,
+				E15523B52327320400E5485A /* WXHookWindow.m in Sources */,
+				E15523EC2327878A00E5485A /* HookBlankViewController.m in Sources */,
+				E15523C52327479500E5485A /* HomeFeatureGroupCell.m in Sources */,
+				E155235523272D8B00E5485A /* EasyNavigationView+Scroll.m in Sources */,
+				E1CCD5CC23139CEE0011C464 /* LLDBTools.mm in Sources */,
+				E155234023272D8B00E5485A /* NSObject+EasyKVO.m in Sources */,
+				E1C055862314D54C009AA1AB /* UIView+MHFrame.m in Sources */,
+				E1EED7D92313BDB10054FE44 /* WeChatSessionUIListHook.mm in Sources */,
+				E155233723272D8B00E5485A /* EasyNavigationView+Add.m in Sources */,
+				E155233F23272D8B00E5485A /* UITableViewController+EasyNavigationExt.m in Sources */,
+				E15523CE232749E500E5485A /* HomeFeatureGroupCellModel.m in Sources */,
+				E155235223272D8B00E5485A /* EasyNavigationButton.m in Sources */,
+				E155234B23272D8B00E5485A /* EasyNavigationUtils.m in Sources */,
+				E155233823272D8B00E5485A /* EasyNavigationController.m in Sources */,
+				E15523B92327337D00E5485A /* HookRootViewController.m in Sources */,
+				E1C055722314C633009AA1AB /* NSString+MD5.m in Sources */,
+				E155233C23272D8B00E5485A /* EasyNavigationView.m in Sources */,
+				E155234E23272D8B00E5485A /* EasyNavigationView+RightButton.m in Sources */,
+				E1CCD5B623139CEE0011C464 /* WXHookDylib.mm in Sources */,
+				E155234D23272D8B00E5485A /* EasyNavigationView+LeftButton.m in Sources */,
+				E15523E82327842E00E5485A /* GameGroupViewController.m in Sources */,
+				E155234323272D8B00E5485A /* UIView+EasyNavigationExt.m in Sources */,
+				E1C054F823140DB3009AA1AB /* WeChatAppDelegateHook.m in Sources */,
+				E15523C12327451300E5485A /* HomeFeatureCollectionViewCell.m in Sources */,
+				E155234223272D8B00E5485A /* EasyKVOInfo.m in Sources */,
+				E15523DB232780C100E5485A /* GameSysCenter.m in Sources */,
+				E1C054F62313DA38009AA1AB /* WeChatServiceManager.m in Sources */,
+				E1CCD5C323139CEE0011C464 /* MDMethodTrace.m in Sources */,
+				E15523D72327761000E5485A /* GlobalConfig.m in Sources */,
+				E155234A23272D8B00E5485A /* UIViewController+EasyNavigationExt.m in Sources */,
+				E1CCD5D423139CEE0011C464 /* fishhook.c in Sources */,
+				E1CCD5D123139CEE0011C464 /* AntiAntiDebug.m in Sources */,
+				E15523F22327972F00E5485A /* HookContactModel.m in Sources */,
+				E155234623272D8B00E5485A /* UIScrollView+EasyNavigationExt.m in Sources */,
+				E1C0559023152281009AA1AB /* WeChatContactDBMgr.m in Sources */,
+				E15523CA2327493300E5485A /* HomeFeatureCellModel.m in Sources */,
+				E1C0556D2314C4FD009AA1AB /* WeChatBaseDBMgr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1CCD5AA23139CEE0011C464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CCD5A623139CEE0011C464 /* WXHookDylib */;
+			targetProxy = E1CCD5A923139CEE0011C464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1CCD5DB23139CEE0011C464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1CCD5DC23139CEE0011C464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CCD5DE23139CEE0011C464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDEB1A43DDC2B5405048326F /* Pods-WXHookDylib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSB872774X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXHookDylib/WXHookDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libWXHookDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"WXHookDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		E1CCD5DF23139CEE0011C464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF745AF2FF53510CEA2BE67 /* Pods-WXHookDylib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = DSB872774X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXHookDylib/WXHookDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libWXHookDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"WXHookDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1CCD5E123139CEE0011C464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC63B1E1886A24C3DEAD96AE /* Pods-WXHook.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDUCSY85Y;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = WXHook/Info.plist;
+				MACH_O_TYPE = mh_bundle;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziojaer.xin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1CCD5E223139CEE0011C464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35DA68C1761B1ED139BCF22 /* Pods-WXHook.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDUCSY85Y;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = WXHook/Info.plist;
+				MACH_O_TYPE = mh_bundle;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziojaer.xin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CCD58D23139CEE0011C464 /* Build configuration list for PBXProject "WXHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CCD5DB23139CEE0011C464 /* Debug */,
+				E1CCD5DC23139CEE0011C464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CCD5DD23139CEE0011C464 /* Build configuration list for PBXNativeTarget "WXHookDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CCD5DE23139CEE0011C464 /* Debug */,
+				E1CCD5DF23139CEE0011C464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CCD5E023139CEE0011C464 /* Build configuration list for PBXNativeTarget "WXHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CCD5E123139CEE0011C464 /* Debug */,
+				E1CCD5E223139CEE0011C464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CCD58A23139CEE0011C464 /* Project object */;
+}

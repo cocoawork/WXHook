@@ -1,0 +1,6 @@
+framework module Pods_WXHookDylib {
+  umbrella header "Pods-WXHookDylib-umbrella.h"
+
+  export *
+  module * { export * }
+}

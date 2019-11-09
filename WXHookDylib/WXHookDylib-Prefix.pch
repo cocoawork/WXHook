@@ -1,0 +1,41 @@
+//
+// Prefix header for all source files of the 'WXHookDylib' target in the 'WXHookDylib' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "/opt/theos/Prefix.pch"  //path/to/theos/Prefix.pch
+
+#import <Masonry/Masonry.h>
+#import <FMDB/FMDB.h>
+#import "WeChatBaseDBMgr.h"
+#import "WeChatContactDBMgr.h"
+#import "WeChatMessageDBMgr.h"
+#import "UIView+MHFrame.h"
+#import "WXHookWindow.h"
+#import "WeChatHeader.h"
+#import "WeChatServiceManager.h"
+#import "HookContactInfo.h"
+#import "GlobalConfig.h"
+#import "GameSysCenter.h"
+#import "EasyNavigation/EasyNavigation.h"
+#import <RETableViewManager/RETableViewManager.h>
+
+#import "HookBaseViewController.h"
+#import "HookTableViewController.h"
+#import "HookBusinessViewController.h"
+
+#import "HookContactModel.h"
+
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+
+#define HookBundleImage(name, type) [UIImage imageWithContentsOfFile:\
+                                        [[NSBundle mainBundle] pathForResource:\
+                                            ([NSString stringWithFormat:@"hook/%@", name]) \
+                                            ofType:(type)]]
+
+
+
+
+#endif

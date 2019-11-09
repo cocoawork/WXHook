@@ -1,0 +1,38 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - Ono (2.1.2)
+  - REFormattedNumberField (1.1.6)
+  - RETableViewManager (1.7):
+    - REFormattedNumberField (~> 1.1.5)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+
+DEPENDENCIES:
+  - FMDB
+  - Masonry
+  - Ono
+  - RETableViewManager (~> 1.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - Masonry
+    - Ono
+    - REFormattedNumberField
+    - RETableViewManager
+    - REValidation
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Ono: 26a7c1fc4df13ece7747560a1d80655807a8a000
+  REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
+  RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
+  REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
+
+PODFILE CHECKSUM: 04a39015289ec65cdb88191b6a60ae69fb388e1f
+
+COCOAPODS: 1.5.3
